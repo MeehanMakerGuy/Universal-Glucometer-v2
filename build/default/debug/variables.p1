@@ -1,0 +1,253 @@
+Version 3.2 HI-TECH Software Intermediate Code
+[; ;variables.h: 60: extern char gglucDataReady, gSleepMode , gExitMemoryMode , gMemorymode, gSetDateTime ;
+[; ;variables.h: 61: extern char gDisplayPreviousReading , RedingCount,gOneReadingDisplyed ;
+[; ;variables.h: 62: extern unsigned long gcountIdleTime ;
+[; ;variables.h: 63: extern unsigned long gStripIdleTime ;
+[; ;variables.h: 64: extern unsigned long gtimeOutCount ;
+[; ;variables.h: 65: extern int gReadData,gcounter,gcaptured2SValue,gReadTemp;
+[; ;variables.h: 66: extern int gGlucoseValue[150], gglucoseIndex;
+[; ;variables.h: 67: extern float gXadc, gY, gTemp, gYmmol, gYmmoldecimal;
+[; ;variables.h: 68: extern char gYmmolchar, gYmmoldecimalchar;
+[; ;variables.h: 70: extern int gYint, gYint2, gTempint, gTempint2;
+[; ;variables.h: 71: extern unsigned long gSigmaGlucoseValue,gAverageGlucose;
+[; ;variables.h: 72: extern char gSenseTestStrip;
+[; ;variables.h: 73: extern char gStripRemoved, gStripInserted,gBloodNotInsetrted;
+[; ;variables.h: 75: extern unsigned char gYmmolchar;
+[; ;variables.h: 76: extern unsigned char gSavedReadingCnt, EEADRS;
+[; ;variables.h: 78: extern char Seconds;
+[; ;variables.h: 79: extern char Year, Month, Days, Hours, Minutes;
+[; ;variables.h: 80: extern char gReadCount, gYmmolRead,gYmmolDecimalRead;
+[; ;variables.h: 81: extern char gYearRead, gMonthRead, gDaysRead, gHoursRead, gMinutesRead;
+"51 variables.c
+[v _gglucDataReady `uc ~T0 @X0 1 e ]
+[i _gglucDataReady
+-> -> 0 `i `uc
+]
+[v _gSleepMode `uc ~T0 @X0 1 e ]
+[i _gSleepMode
+-> -> 0 `i `uc
+]
+[v _gExitMemoryMode `uc ~T0 @X0 1 e ]
+[i _gExitMemoryMode
+-> -> 0 `i `uc
+]
+[v _gMemorymode `uc ~T0 @X0 1 e ]
+[i _gMemorymode
+-> -> 0 `i `uc
+]
+[v _gSetDateTime `uc ~T0 @X0 1 e ]
+[i _gSetDateTime
+-> -> 0 `i `uc
+]
+[; ;variables.c: 51: char gglucDataReady=0, gSleepMode = 0, gExitMemoryMode = 0, gMemorymode=0, gSetDateTime = 0;
+"52
+[v _gDisplayPreviousReading `uc ~T0 @X0 1 e ]
+[i _gDisplayPreviousReading
+-> -> 0 `i `uc
+]
+[v _RedingCount `uc ~T0 @X0 1 e ]
+[i _RedingCount
+-> -> 0 `i `uc
+]
+[v _gOneReadingDisplyed `uc ~T0 @X0 1 e ]
+[i _gOneReadingDisplyed
+-> -> 0 `i `uc
+]
+[; ;variables.c: 52: char gDisplayPreviousReading = 0, RedingCount=0,gOneReadingDisplyed =0 ;
+"53
+[v _gcountIdleTime `ul ~T0 @X0 1 e ]
+[i _gcountIdleTime
+-> -> 120000 `l `ul
+]
+[; ;variables.c: 53: unsigned long gcountIdleTime = 120000;
+"54
+[v _gStripIdleTime `ul ~T0 @X0 1 e ]
+[i _gStripIdleTime
+-> -> 250000 `l `ul
+]
+[; ;variables.c: 54: unsigned long gStripIdleTime = 250000;
+"55
+[v _gtimeOutCount `ul ~T0 @X0 1 e ]
+[i _gtimeOutCount
+-> -> 100000 `l `ul
+]
+[; ;variables.c: 55: unsigned long gtimeOutCount = 100000;
+"57
+[v _gReadData `i ~T0 @X0 1 e ]
+[i _gReadData
+-> 0 `i
+]
+[v _gcounter `i ~T0 @X0 1 e ]
+[i _gcounter
+-> 8000 `i
+]
+[v _gcaptured2SValue `i ~T0 @X0 1 e ]
+[i _gcaptured2SValue
+-> 0 `i
+]
+[v _gReadTemp `i ~T0 @X0 1 e ]
+[i _gReadTemp
+-> 0 `i
+]
+[; ;variables.c: 57: int gReadData=0,gcounter = 8000,gcaptured2SValue=0,gReadTemp=0;
+"58
+[v _gGlucoseValue `i ~T0 @X0 -> 150 `i e ]
+[v _gglucoseIndex `i ~T0 @X0 1 e ]
+[i _gglucoseIndex
+-> 0 `i
+]
+[; ;variables.c: 58: int gGlucoseValue[150], gglucoseIndex=0;
+"59
+[v _gXadc `f ~T0 @X0 1 e ]
+[i _gXadc
+-> -> 0 `i `f
+]
+[v _gY `f ~T0 @X0 1 e ]
+[i _gY
+-> -> 0 `i `f
+]
+[v _gTemp `f ~T0 @X0 1 e ]
+[i _gTemp
+-> -> 0 `i `f
+]
+[v _gYmmol `f ~T0 @X0 1 e ]
+[i _gYmmol
+-> -> 0 `i `f
+]
+[v _gYmmoldecimal `f ~T0 @X0 1 e ]
+[i _gYmmoldecimal
+-> -> 0 `i `f
+]
+[; ;variables.c: 59: float gXadc=0, gY=0,gTemp=0, gYmmol=0, gYmmoldecimal=0;
+"60
+[v _gYmmolchar `uc ~T0 @X0 1 e ]
+[i _gYmmolchar
+-> -> 7 `i `uc
+]
+[v _gYmmoldecimalchar `uc ~T0 @X0 1 e ]
+[i _gYmmoldecimalchar
+-> -> 6 `i `uc
+]
+[; ;variables.c: 60: char gYmmolchar=7, gYmmoldecimalchar=6;
+"61
+[v _gYint `i ~T0 @X0 1 e ]
+[i _gYint
+-> 50 `i
+]
+[v _gYint2 `i ~T0 @X0 1 e ]
+[i _gYint2
+-> 0 `i
+]
+[v _gTempint `i ~T0 @X0 1 e ]
+[i _gTempint
+-> 0 `i
+]
+[v _gTempint2 `i ~T0 @X0 1 e ]
+[i _gTempint2
+-> 0 `i
+]
+[; ;variables.c: 61: int gYint=50, gYint2=0, gTempint=0, gTempint2=0;
+"62
+[v _gSigmaGlucoseValue `ul ~T0 @X0 1 e ]
+[i _gSigmaGlucoseValue
+-> -> -> 0 `i `l `ul
+]
+[v _gAverageGlucose `ul ~T0 @X0 1 e ]
+[i _gAverageGlucose
+-> -> -> 0 `i `l `ul
+]
+[; ;variables.c: 62: unsigned long gSigmaGlucoseValue=0,gAverageGlucose=0;
+"63
+[v _gSenseTestStrip `uc ~T0 @X0 1 e ]
+[i _gSenseTestStrip
+-> -> 0 `i `uc
+]
+[; ;variables.c: 63: char gSenseTestStrip=0;
+"64
+[v _gStripRemoved `uc ~T0 @X0 1 e ]
+[i _gStripRemoved
+-> -> 0 `i `uc
+]
+[v _gStripInserted `uc ~T0 @X0 1 e ]
+[i _gStripInserted
+-> -> 0 `i `uc
+]
+[v _gBloodNotInsetrted `uc ~T0 @X0 1 e ]
+[i _gBloodNotInsetrted
+-> -> 0 `i `uc
+]
+[; ;variables.c: 64: char gStripRemoved = 0, gStripInserted = 0, gBloodNotInsetrted=0;
+"65
+[v _gSavedReadingCnt `uc ~T0 @X0 1 e ]
+[i _gSavedReadingCnt
+-> -> 0 `i `uc
+]
+[v _EEADRS `uc ~T0 @X0 1 e ]
+[i _EEADRS
+-> -> 0 `i `uc
+]
+[; ;variables.c: 65: unsigned char gSavedReadingCnt=0, EEADRS=0;
+"66
+[v _Seconds `uc ~T0 @X0 1 e ]
+[i _Seconds
+-> -> 0 `i `uc
+]
+[; ;variables.c: 66: char Seconds=0;
+"67
+[v _Year `uc ~T0 @X0 1 e ]
+[i _Year
+-> -> 13 `i `uc
+]
+[v _Month `uc ~T0 @X0 1 e ]
+[i _Month
+-> -> 1 `i `uc
+]
+[v _Days `uc ~T0 @X0 1 e ]
+[i _Days
+-> -> 1 `i `uc
+]
+[v _Hours `uc ~T0 @X0 1 e ]
+[i _Hours
+-> -> 10 `i `uc
+]
+[v _Minutes `uc ~T0 @X0 1 e ]
+[i _Minutes
+-> -> 10 `i `uc
+]
+[; ;variables.c: 67: char Year=13, Month=1, Days=1, Hours=10, Minutes=10;
+"68
+[v _gReadCount `uc ~T0 @X0 1 e ]
+[i _gReadCount
+-> -> 0 `i `uc
+]
+[v _gYmmolRead `uc ~T0 @X0 1 e ]
+[i _gYmmolRead
+-> -> 0 `i `uc
+]
+[v _gYmmolDecimalRead `uc ~T0 @X0 1 e ]
+[i _gYmmolDecimalRead
+-> -> 0 `i `uc
+]
+[; ;variables.c: 68: char gReadCount=0, gYmmolRead=0,gYmmolDecimalRead=0;
+"69
+[v _gYearRead `uc ~T0 @X0 1 e ]
+[i _gYearRead
+-> -> 0 `i `uc
+]
+[v _gMonthRead `uc ~T0 @X0 1 e ]
+[i _gMonthRead
+-> -> 0 `i `uc
+]
+[v _gDaysRead `uc ~T0 @X0 1 e ]
+[i _gDaysRead
+-> -> 0 `i `uc
+]
+[v _gHoursRead `uc ~T0 @X0 1 e ]
+[i _gHoursRead
+-> -> 0 `i `uc
+]
+[v _gMinutesRead `uc ~T0 @X0 1 e ]
+[i _gMinutesRead
+-> -> 0 `i `uc
+]
+[; ;variables.c: 69: char gYearRead=0, gMonthRead=0, gDaysRead=0, gHoursRead=0, gMinutesRead=0;

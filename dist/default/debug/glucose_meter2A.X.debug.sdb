@@ -1,0 +1,903 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1786 ]
+[d frameptr 6 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"464 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"56 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+"84 C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+[v _SaveGlucoReading SaveGlucoReading `(v  1 e 1 0 ]
+"117
+[v _ReadSavedGlucoReading ReadSavedGlucoReading `(v  1 e 1 0 ]
+"153
+[v _DisplaySavedGlucoReading DisplaySavedGlucoReading `(v  1 e 1 0 ]
+"107 C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+[v _main main `(v  1 e 1 0 ]
+"282
+[v _SenseTestStrip SenseTestStrip `(v  1 e 1 0 ]
+"385
+[v _CalcGlucose CalcGlucose `(v  1 e 1 0 ]
+"421
+[v _EnterDeepSleep EnterDeepSleep `(v  1 e 1 0 ]
+"475
+[v _isr isr `II(v  1 e 1 0 ]
+"190 C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+[v _gotoXY gotoXY `(v  1 e 1 0 ]
+"202
+[v _LCDCharacter LCDCharacter `(v  1 e 1 0 ]
+"219
+[v _LCDString LCDString `(v  1 e 1 0 ]
+"226
+[v _LCDClear LCDClear `(v  1 e 1 0 ]
+"234
+[v _LCDInit LCDInit `(v  1 e 1 0 ]
+[v i1_LCDInit LCDInit `(v  1 e 1 0 ]
+"263
+[v _LCDWrite LCDWrite `(v  1 e 1 0 ]
+[v i1_LCDWrite LCDWrite `(v  1 e 1 0 ]
+"75 C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+[v _HwInit HwInit `(v  1 e 1 0 ]
+"108
+[v _InitApp InitApp `(v  1 e 1 0 ]
+"186
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+"212
+[v _InitADC InitADC `(v  1 e 1 0 ]
+"234
+[v _SetTime SetTime `(v  1 e 1 0 ]
+"447
+[v _SW1_pressed SW1_pressed `(uc  1 e 1 0 ]
+"479
+[v _SW3_pressed SW3_pressed `(uc  1 e 1 0 ]
+"510
+[v _InitTimer1 InitTimer1 `(v  1 e 1 0 ]
+"534
+[v _Delay_1_Second Delay_1_Second `(v  1 e 1 0 ]
+[s S355 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"360 C:\Program Files (x86)\Microchip\xc8\v1.37\include\pic16f1786.h
+[s S364 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S369 . 1 `S355 1 . 1 0 `S364 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES369  1 e 1 @11 ]
+"483
+[v _PORTB PORTB `VEuc  1 e 1 @13 ]
+[s S805 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"658
+[u S814 . 1 `S805 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES814  1 e 1 @17 ]
+"877
+[v _TMR1H TMR1H `VEuc  1 e 1 @23 ]
+[s S463 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+"918
+[s S472 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+[u S476 . 1 `S463 1 . 1 0 `S472 1 . 1 0 ]
+[v _T1CONbits T1CONbits `VES476  1 e 1 @24 ]
+"1144
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+[s S125 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"1164
+[s S134 . 1 `uc 1 TRISA 1 0 :8:0 
+]
+[u S136 . 1 `S125 1 . 1 0 `S134 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES136  1 e 1 @140 ]
+"1213
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+[s S153 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1233
+[s S162 . 1 `uc 1 TRISB 1 0 :8:0 
+]
+[u S164 . 1 `S153 1 . 1 0 `S162 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES164  1 e 1 @141 ]
+"1282
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S1093 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1302
+[s S1102 . 1 `uc 1 TRISC 1 0 :8:0 
+]
+[u S1104 . 1 `S1093 1 . 1 0 `S1102 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES1104  1 e 1 @142 ]
+[s S387 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 CCP1IE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 TMR1GIE 1 0 :1:7 
+]
+"1388
+[u S396 . 1 `S387 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES396  1 e 1 @145 ]
+"1572
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S323 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1595
+[s S332 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S337 . 1 `S323 1 . 1 0 `S332 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES337  1 e 1 @149 ]
+"1825
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1963
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1982
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+"2001
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @157 ]
+[s S847 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+`uc 1 ADRMD 1 0 :1:7 
+]
+"2031
+[s S856 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S860 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S863 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+]
+[u S866 . 1 `S847 1 . 1 0 `S856 1 . 1 0 `S860 1 . 1 0 `S863 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES866  1 e 1 @157 ]
+"2095
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @158 ]
+"2166
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @159 ]
+[s S41 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"2261
+[s S50 . 1 `uc 1 LATA 1 0 :8:0 
+]
+[u S52 . 1 `S41 1 . 1 0 `S50 1 . 1 0 ]
+[v _LATAbits LATAbits `VES52  1 e 1 @268 ]
+[s S910 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2330
+[s S919 . 1 `uc 1 LATB 1 0 :8:0 
+]
+[u S921 . 1 `S910 1 . 1 0 `S919 1 . 1 0 ]
+[v _LATBbits LATBbits `VES921  1 e 1 @269 ]
+[s S1119 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2399
+[s S1128 . 1 `uc 1 LATC 1 0 :8:0 
+]
+[u S1130 . 1 `S1119 1 . 1 0 `S1128 1 . 1 0 ]
+[v _LATCbits LATCbits `VES1130  1 e 1 @270 ]
+[s S69 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"2810
+[s S78 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+]
+[u S81 . 1 `S69 1 . 1 0 `S78 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES81  1 e 1 @279 ]
+[s S295 . 1 `uc 1 DACNSS 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 DACPSS0 1 0 :1:2 
+`uc 1 DACPSS1 1 0 :1:3 
+`uc 1 DACOE2 1 0 :1:4 
+`uc 1 DACOE1 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 DACEN 1 0 :1:7 
+]
+"2885
+[s S304 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 DACPSS 1 0 :2:2 
+]
+[u S307 . 1 `S295 1 . 1 0 `S304 1 . 1 0 ]
+[v _DACCON0bits DACCON0bits `VES307  1 e 1 @280 ]
+"2924
+[v _DACCON1 DACCON1 `VEuc  1 e 1 @281 ]
+"3463
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+[s S99 . 1 `uc 1 ANSA0 1 0 :1:0 
+`uc 1 ANSA1 1 0 :1:1 
+`uc 1 ANSA2 1 0 :1:2 
+`uc 1 ANSA3 1 0 :1:3 
+`uc 1 ANSA4 1 0 :1:4 
+`uc 1 ANSA5 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 ANSA7 1 0 :1:7 
+]
+"3483
+[s S108 . 1 `uc 1 ANSELA 1 0 :8:0 
+]
+[u S110 . 1 `S99 1 . 1 0 `S108 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES110  1 e 1 @396 ]
+"3527
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+[s S179 . 1 `uc 1 ANSB0 1 0 :1:0 
+`uc 1 ANSB1 1 0 :1:1 
+`uc 1 ANSB2 1 0 :1:2 
+`uc 1 ANSB3 1 0 :1:3 
+`uc 1 ANSB4 1 0 :1:4 
+`uc 1 ANSB5 1 0 :1:5 
+`uc 1 ANSB6 1 0 :1:6 
+]
+"3546
+[s S187 . 1 `uc 1 ANSELB 1 0 :6:0 
+]
+[u S189 . 1 `S179 1 . 1 0 `S187 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES189  1 e 1 @397 ]
+"3590
+[v _EEADR EEADR `VEus  1 e 2 @401 ]
+"3645
+[v _EEDATA EEDATA `VEuc  1 e 1 @403 ]
+"3696
+[v _EECON1 EECON1 `VEuc  1 e 1 @405 ]
+"3757
+[v _EECON2 EECON2 `VEuc  1 e 1 @406 ]
+[s S408 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 VREGPM 1 0 :1:1 
+]
+"3787
+[u S411 . 1 `S408 1 . 1 0 ]
+[v _VREGCONbits VREGCONbits `VES411  1 e 1 @407 ]
+[s S203 . 1 `uc 1 IOCBN0 1 0 :1:0 
+`uc 1 IOCBN1 1 0 :1:1 
+`uc 1 IOCBN2 1 0 :1:2 
+`uc 1 IOCBN3 1 0 :1:3 
+`uc 1 IOCBN4 1 0 :1:4 
+`uc 1 IOCBN5 1 0 :1:5 
+`uc 1 IOCBN6 1 0 :1:6 
+`uc 1 IOCBN7 1 0 :1:7 
+]
+"7509
+[s S212 . 1 `uc 1 IOCBN 1 0 :8:0 
+]
+[u S214 . 1 `S203 1 . 1 0 `S212 1 . 1 0 ]
+[v _IOCBNbits IOCBNbits `VES214  1 e 1 @917 ]
+[s S229 . 1 `uc 1 IOCBF0 1 0 :1:0 
+`uc 1 IOCBF1 1 0 :1:1 
+`uc 1 IOCBF2 1 0 :1:2 
+`uc 1 IOCBF3 1 0 :1:3 
+`uc 1 IOCBF4 1 0 :1:4 
+`uc 1 IOCBF5 1 0 :1:5 
+`uc 1 IOCBF6 1 0 :1:6 
+`uc 1 IOCBF7 1 0 :1:7 
+]
+"7578
+[s S238 . 1 `uc 1 IOCBF 1 0 :8:0 
+]
+[u S240 . 1 `S229 1 . 1 0 `S238 1 . 1 0 ]
+[v _IOCBFbits IOCBFbits `VES240  1 e 1 @918 ]
+[s S257 . 1 `uc 1 OPA1PCH0 1 0 :1:0 
+`uc 1 OPA1PCH1 1 0 :1:1 
+]
+"7921
+[s S260 . 1 `uc 1 OPA1PCH 1 0 :3:0 
+`uc 1 . 1 0 :3:3 
+`uc 1 OPA1SP 1 0 :1:6 
+`uc 1 OPA1EN 1 0 :1:7 
+]
+[s S265 . 1 `uc 1 PCH 1 0 :3:0 
+`uc 1 . 1 0 :3:3 
+`uc 1 SP 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+[s S270 . 1 `uc 1 PCH0 1 0 :1:0 
+`uc 1 PCH1 1 0 :1:1 
+]
+[u S273 . 1 `S257 1 . 1 0 `S260 1 . 1 0 `S265 1 . 1 0 `S270 1 . 1 0 ]
+[v _OPA1CONbits OPA1CONbits `VES273  1 e 1 @1297 ]
+"13568
+[v _CARRY CARRY `VEb  1 e 0 @24 ]
+"13728
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"13732
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @1257 ]
+"13976
+[v _LATB1 LATB1 `VEb  1 e 0 @2153 ]
+"13984
+[v _LATB5 LATB5 `VEb  1 e 0 @2157 ]
+"15362
+[v _RD RD `VEb  1 e 0 @3240 ]
+"15754
+[v _WR WR `VEb  1 e 0 @3241 ]
+"15756
+[v _WREN WREN `VEb  1 e 0 @3242 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+[v _dpowers dpowers `DCC[5]ui  1 s 10 dpowers ]
+"60 C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+[v _ASCII ASCII `DCC[96][5]uc  1 e 480 0 ]
+"160
+[v _LARGEnum LARGEnum `DCC[26][10]uc  1 e 260 0 ]
+"51 C:\Users\Tom\Documents\glucose_meter2A.X\variables.c
+[v _gglucDataReady gglucDataReady `uc  1 e 1 0 ]
+[v _gSleepMode gSleepMode `uc  1 e 1 0 ]
+[v _gExitMemoryMode gExitMemoryMode `uc  1 e 1 0 ]
+[v _gMemorymode gMemorymode `uc  1 e 1 0 ]
+[v _gSetDateTime gSetDateTime `uc  1 e 1 0 ]
+"52
+[v _gDisplayPreviousReading gDisplayPreviousReading `uc  1 e 1 0 ]
+[v _RedingCount RedingCount `uc  1 e 1 0 ]
+[v _gOneReadingDisplyed gOneReadingDisplyed `uc  1 e 1 0 ]
+"53
+[v _gcountIdleTime gcountIdleTime `ul  1 e 4 0 ]
+"54
+[v _gStripIdleTime gStripIdleTime `ul  1 e 4 0 ]
+"55
+[v _gtimeOutCount gtimeOutCount `ul  1 e 4 0 ]
+"57
+[v _gReadData gReadData `i  1 e 2 0 ]
+[v _gcounter gcounter `i  1 e 2 0 ]
+[v _gcaptured2SValue gcaptured2SValue `i  1 e 2 0 ]
+"58
+[v _gGlucoseValue gGlucoseValue `[150]i  1 e 300 @8900 ]
+[v _gglucoseIndex gglucoseIndex `i  1 e 2 0 ]
+"59
+[v _gXadc gXadc `f  1 e 3 0 ]
+[v _gY gY `f  1 e 3 0 ]
+[v _gYmmol gYmmol `f  1 e 3 0 ]
+[v _gYmmoldecimal gYmmoldecimal `f  1 e 3 0 ]
+"60
+[v _gYmmolchar gYmmolchar `uc  1 e 1 0 ]
+[v _gYmmoldecimalchar gYmmoldecimalchar `uc  1 e 1 0 ]
+"61
+[v _gYint gYint `i  1 e 2 0 ]
+"62
+[v _gSigmaGlucoseValue gSigmaGlucoseValue `ul  1 e 4 0 ]
+[v _gAverageGlucose gAverageGlucose `ul  1 e 4 0 ]
+"63
+[v _gSenseTestStrip gSenseTestStrip `uc  1 e 1 0 ]
+"64
+[v _gBloodNotInsetrted gBloodNotInsetrted `uc  1 e 1 0 ]
+[v _gStripInserted gStripInserted `uc  1 e 1 0 ]
+[v _gStripRemoved gStripRemoved `uc  1 e 1 0 ]
+"65
+[v _gSavedReadingCnt gSavedReadingCnt `uc  1 e 1 0 ]
+[v _EEADRS EEADRS `uc  1 e 1 0 ]
+"66
+[v _Seconds Seconds `uc  1 e 1 0 ]
+"67
+[v _Month Month `uc  1 e 1 0 ]
+[v _Days Days `uc  1 e 1 0 ]
+[v _Year Year `uc  1 e 1 0 ]
+[v _Hours Hours `uc  1 e 1 0 ]
+[v _Minutes Minutes `uc  1 e 1 0 ]
+"68
+[v _gReadCount gReadCount `uc  1 e 1 0 ]
+[v _gYmmolRead gYmmolRead `uc  1 e 1 0 ]
+[v _gYmmolDecimalRead gYmmolDecimalRead `uc  1 e 1 0 ]
+"69
+[v _gYearRead gYearRead `uc  1 e 1 0 ]
+[v _gMonthRead gMonthRead `uc  1 e 1 0 ]
+[v _gDaysRead gDaysRead `uc  1 e 1 0 ]
+[v _gHoursRead gHoursRead `uc  1 e 1 0 ]
+[v _gMinutesRead gMinutesRead `uc  1 e 1 0 ]
+"107 C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"266
+} 0
+"27 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 24 ]
+"30
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+{
+[v ___ftneg@f1 f1 `f  1 p 3 25 ]
+"20
+} 0
+"56 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"60
+[v ___ftdiv@f3 f3 `f  1 a 3 28 ]
+"59
+[v ___ftdiv@sign sign `uc  1 a 1 32 ]
+[v ___ftdiv@exp exp `uc  1 a 1 31 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 27 ]
+"56
+[v ___ftdiv@f2 f2 `f  1 p 3 17 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 20 ]
+"86
+} 0
+"234 C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+[v _SetTime SetTime `(v  1 e 1 0 ]
+{
+"237
+[v SetTime@sw1_count sw1_count `uc  1 a 1 18 ]
+"236
+[v SetTime@confirm_count confirm_count `uc  1 a 1 17 ]
+"239
+[v SetTime@min_1 min_1 `uc  1 a 1 16 ]
+[v SetTime@hour_1 hour_1 `uc  1 a 1 15 ]
+[v SetTime@day_1 day_1 `uc  1 a 1 14 ]
+[v SetTime@month_1 month_1 `uc  1 a 1 13 ]
+[v SetTime@year_1 year_1 `uc  1 a 1 12 ]
+[v SetTime@min_2 min_2 `uc  1 a 1 11 ]
+[v SetTime@hour_2 hour_2 `uc  1 a 1 10 ]
+[v SetTime@day_2 day_2 `uc  1 a 1 9 ]
+[v SetTime@month_2 month_2 `uc  1 a 1 8 ]
+[v SetTime@year_2 year_2 `uc  1 a 1 7 ]
+"238
+[v SetTime@set_time_date_loop set_time_date_loop `uc  1 a 1 6 ]
+"236
+[v SetTime@pre_confirm_count pre_confirm_count `uc  1 a 1 5 ]
+"238
+[v SetTime@tMin tMin `uc  1 a 1 4 ]
+[v SetTime@tHour tHour `uc  1 a 1 3 ]
+[v SetTime@tYear tYear `uc  1 a 1 2 ]
+[v SetTime@tDay tDay `uc  1 a 1 1 ]
+[v SetTime@tMonth tMonth `uc  1 a 1 0 ]
+"430
+} 0
+"464 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"501
+[v printf@width width `i  1 a 2 36 ]
+"528
+[v printf@val val `ui  1 a 2 33 ]
+"499
+[v printf@c c `c  1 a 1 38 ]
+"508
+[v printf@flag flag `uc  1 a 1 35 ]
+"506
+[v printf@prec prec `c  1 a 1 32 ]
+"466
+[v printf@ap ap `[1]*.4v  1 a 1 31 ]
+"464
+[v printf@f f `*.25DCCuc  1 p 2 23 ]
+"1541
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 10 ]
+"15
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 22 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 17 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 19 ]
+"26
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 15 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 14 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 9 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 11 ]
+"31
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+{
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v ___bmul@product product `uc  1 a 1 11 ]
+"4
+[v ___bmul@multiplier multiplier `uc  1 a 1 wreg ]
+[v ___bmul@multiplicand multiplicand `uc  1 p 1 9 ]
+"6
+[v ___bmul@multiplier multiplier `uc  1 a 1 12 ]
+"51
+} 0
+"479 C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+[v _SW3_pressed SW3_pressed `(uc  1 e 1 0 ]
+{
+"481
+[v SW3_pressed@SW3_press SW3_press `uc  1 a 1 10 ]
+"493
+} 0
+"447
+[v _SW1_pressed SW1_pressed `(uc  1 e 1 0 ]
+{
+"449
+[v SW1_pressed@SW1_press SW1_press `uc  1 a 1 10 ]
+"462
+} 0
+"282 C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+[v _SenseTestStrip SenseTestStrip `(v  1 e 1 0 ]
+{
+"285
+[v SenseTestStrip@temp_adc temp_adc `i  1 a 2 30 ]
+"284
+[v SenseTestStrip@index index `uc  1 a 1 32 ]
+"369
+} 0
+"421
+[v _EnterDeepSleep EnterDeepSleep `(v  1 e 1 0 ]
+{
+"459
+} 0
+"84 C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+[v _SaveGlucoReading SaveGlucoReading `(v  1 e 1 0 ]
+{
+"99
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 1 0 ]
+{
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@value value `uc  1 p 1 9 ]
+[v eeprom_write@addr addr `uc  1 a 1 12 ]
+"9
+} 0
+"117 C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+[v _ReadSavedGlucoReading ReadSavedGlucoReading `(v  1 e 1 0 ]
+{
+[v ReadSavedGlucoReading@reading_count reading_count `uc  1 a 1 wreg ]
+[v ReadSavedGlucoReading@reading_count reading_count `uc  1 a 1 wreg ]
+"119
+[v ReadSavedGlucoReading@reading_count reading_count `uc  1 a 1 15 ]
+"136
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+{
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+"9
+[v eeprom_read@addr addr `uc  1 a 1 12 ]
+"12
+} 0
+"219 C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+[v _LCDString LCDString `(v  1 e 1 0 ]
+{
+[v LCDString@characters characters `*.25uc  1 p 2 28 ]
+"223
+} 0
+"202
+[v _LCDCharacter LCDCharacter `(v  1 e 1 0 ]
+{
+[v LCDCharacter@character character `uc  1 a 1 wreg ]
+"205
+[v LCDCharacter@index index `i  1 a 2 26 ]
+"202
+[v LCDCharacter@character character `uc  1 a 1 wreg ]
+[v LCDCharacter@character character `uc  1 a 1 25 ]
+"210
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 13 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 9 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 11 ]
+"53
+} 0
+"75 C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+[v _HwInit HwInit `(v  1 e 1 0 ]
+{
+"91
+} 0
+"234 C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+[v _LCDInit LCDInit `(v  1 e 1 0 ]
+{
+"258
+} 0
+"510 C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+[v _InitTimer1 InitTimer1 `(v  1 e 1 0 ]
+{
+"517
+} 0
+"108
+[v _InitApp InitApp `(v  1 e 1 0 ]
+{
+"169
+} 0
+"212
+[v _InitADC InitADC `(v  1 e 1 0 ]
+{
+"217
+} 0
+"186
+[v _ConfigureOscillator ConfigureOscillator `(v  1 e 1 0 ]
+{
+"194
+} 0
+"153 C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+[v _DisplaySavedGlucoReading DisplaySavedGlucoReading `(v  1 e 1 0 ]
+{
+"155
+[v DisplaySavedGlucoReading@read_mgdl read_mgdl `f  1 a 3 2 ]
+"156
+[v DisplaySavedGlucoReading@read_mgdl_int read_mgdl_int `i  1 a 2 0 ]
+"167
+} 0
+"44 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 18 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 22 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 17 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 9 ]
+"73
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"11
+[v ___awdiv@quotient quotient `i  1 a 2 16 ]
+"12
+[v ___awdiv@sign sign `uc  1 a 1 15 ]
+[v ___awdiv@counter counter `uc  1 a 1 14 ]
+"6
+[v ___awdiv@divisor divisor `i  1 p 2 9 ]
+[v ___awdiv@dividend dividend `i  1 p 2 11 ]
+"42
+} 0
+"226 C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+[v _LCDClear LCDClear `(v  1 e 1 0 ]
+{
+"227
+[v LCDClear@index index `i  1 a 2 24 ]
+"232
+} 0
+"190
+[v _gotoXY gotoXY `(v  1 e 1 0 ]
+{
+[v gotoXY@x x `uc  1 a 1 wreg ]
+[v gotoXY@x x `uc  1 a 1 wreg ]
+[v gotoXY@y y `uc  1 p 1 20 ]
+[v gotoXY@x x `uc  1 a 1 22 ]
+"193
+} 0
+"263
+[v _LCDWrite LCDWrite `(v  1 e 1 0 ]
+{
+[v LCDWrite@data_or_command data_or_command `uc  1 a 1 wreg ]
+"264
+[v LCDWrite@i i `uc  1 a 1 19 ]
+[v LCDWrite@d d `uc  1 a 1 18 ]
+"263
+[v LCDWrite@data_or_command data_or_command `uc  1 a 1 wreg ]
+[v LCDWrite@data data `uc  1 p 1 15 ]
+"265
+[v LCDWrite@data_or_command data_or_command `uc  1 a 1 17 ]
+"280
+} 0
+"534 C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+[v _Delay_1_Second Delay_1_Second `(v  1 e 1 0 ]
+{
+"541
+} 0
+"385 C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+[v _CalcGlucose CalcGlucose `(v  1 e 1 0 ]
+{
+"403
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"65
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 52 ]
+"64
+[v ___ftmul@sign sign `uc  1 a 1 56 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 55 ]
+[v ___ftmul@exp exp `uc  1 a 1 51 ]
+"62
+[v ___ftmul@f1 f1 `f  1 p 3 41 ]
+[v ___ftmul@f2 f2 `f  1 p 3 44 ]
+"157
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 9 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 12 ]
+"13
+} 0
+"86 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 40 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 39 ]
+[v ___ftadd@sign sign `uc  1 a 1 38 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 28 ]
+[v ___ftadd@f2 f2 `f  1 p 3 31 ]
+"148
+} 0
+"32 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 23 ]
+"32
+[v ___awtoft@c c `i  1 p 2 18 ]
+"42
+} 0
+"62 C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 9 ]
+[v ___ftpack@exp exp `uc  1 p 1 12 ]
+[v ___ftpack@sign sign `uc  1 p 1 13 ]
+"86
+} 0
+"475 C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+[v _isr isr `II(v  1 e 1 0 ]
+{
+"641
+} 0
+"234 C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+[v i1_LCDInit LCDInit `(v  1 e 1 0 ]
+{
+"258
+} 0
+"263
+[v i1_LCDWrite LCDWrite `(v  1 e 1 0 ]
+{
+[v i1LCDWrite@data_or_command data_or_command `uc  1 a 1 wreg ]
+[v i1LCDWrite@i LCDWrite `uc  1 a 1 4 ]
+[v i1LCDWrite@d LCDWrite `uc  1 a 1 3 ]
+[v i1LCDWrite@data_or_command data_or_command `uc  1 a 1 wreg ]
+[v i1LCDWrite@data data `uc  1 p 1 0 ]
+"265
+[v i1LCDWrite@data_or_command data_or_command `uc  1 a 1 2 ]
+"280
+} 0

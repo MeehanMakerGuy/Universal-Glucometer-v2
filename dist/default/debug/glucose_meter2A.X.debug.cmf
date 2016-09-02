@@ -1,0 +1,1928 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/debug\glucose_meter2A.X.debug.obj
+cinit CODE 0 1DD 1DD 45 2
+text1 CODE 0 12A7 12A7 1B 2
+text2 CODE 0 1204 1204 9 2
+text3 CODE 0 900 900 A9 2
+text4 CODE 0 542 542 25F 2
+text5 CODE 0 B53 B53 15B 2
+text6 CODE 0 11F9 11F9 1 2
+text7 CODE 0 1224 1224 F 2
+text8 CODE 0 13BA 13BA 2D 2
+text9 CODE 0 1449 1449 35 2
+text10 CODE 0 1243 1243 12 2
+text11 CODE 0 1268 1268 13 2
+text12 CODE 0 1255 1255 13 2
+text13 CODE 0 CAE CAE 15E 2
+text14 CODE 0 1416 1416 33 2
+text15 CODE 0 1628 1628 64 2
+text16 CODE 0 138E 138E 2C 2
+text17 CODE 0 1701 1701 78 2
+text18 CODE 0 12FC 12FC 21 2
+text19 CODE 0 1290 1290 17 2
+text20 CODE 0 7A1 7A1 53 2
+text21 CODE 0 12C2 12C2 1C 2
+text22 CODE 0 12DE 12DE 1E 2
+text23 CODE 0 1589 1589 4D 2
+text24 CODE 0 120D 120D B 2
+text25 CODE 0 1542 1542 47 2
+text26 CODE 0 800 800 8 2
+text27 CODE 0 11FA 11FA 4 2
+text28 CODE 0 168C 168C 75 2
+text29 CODE 0 1779 1779 87 2
+text30 CODE 0 15D6 15D6 52 2
+text31 CODE 0 1364 1364 2A 2
+text32 CODE 0 127B 127B 15 2
+text33 CODE 0 13E7 13E7 2F 2
+text34 CODE 0 14BA 14BA 42 2
+text35 CODE 0 86D 86D 93 2
+text36 CODE 0 9A9 9A9 B4 2
+text37 CODE 0 147E 147E 3C 2
+text38 CODE 0 A5D A5D F6 2
+text39 CODE 0 131D 131D 22 2
+text40 CODE 0 808 808 65 2
+text42 CODE 0 14FC 14FC 46 2
+text43 CODE 0 133F 133F 25 2
+idataCOMMON CODE 0 3 3 1 2
+maintext CODE 0 E0C E0C 1F4 2
+cstackCOMMON COMMON 1 70 70 7 1
+cstackBANK0 BANK0 1 20 20 3B 1
+cstackBANK1 BANK1 1 E0 E0 9 1
+cstackBANK2 BANK2 1 120 120 13 1
+inittext CODE 0 1218 1218 C 2
+intentry CODE 0 4 4 1D7 2
+bssBANK0 BANK0 1 5B 5B 6 1
+bssBANK1 BANK1 1 A0 A0 30 1
+stringtext STRCODE 0 222 222 320 2
+idataBANK0 CODE 0 11FE 11FE 6 2
+idataBANK1 CODE 0 1233 1233 10 2
+swtext1 CONST 0 1000 1000 14 2
+swtext2 CONST 0 1014 1014 14 2
+dataBANK0 BANK0 1 61 61 6 1
+dataBANK1 BANK1 1 D0 D0 10 1
+dataCOMMON COMMON 1 7D 7D 1 1
+clrtext CODE 0 7F4 7F4 C 2
+bssCOMMON COMMON 1 77 77 6 1
+$C:\Users\Tom\AppData\Local\Temp\s81g.obj
+reset_vec CODE 0 0 0 3 2
+end_init CODE 0 1DB 1DB 2 2
+config CONFIG 0 8007 8007 2 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 67-6F 1
+RAM E9-EF 1
+RAM 133-16F 1
+RAM 1A0-1EF 1
+RAM 220-26F 1
+RAM 2A0-2EF 1
+RAM 320-36F 1
+RAM 3A0-3EF 1
+RAM 420-463 1
+BANK0 67-6F 1
+BANK1 E9-EF 1
+BANK2 133-16F 1
+BANK3 1A0-1EF 1
+BANK4 220-26F 1
+BANK5 2A0-2EF 1
+BANK6 320-36F 1
+BANK7 3A0-3EF 1
+BANK8 420-463 1
+CONST 1028-11F8 2
+CONST 1800-1FFF 2
+ENTRY 1028-11F8 2
+ENTRY 1800-1FFF 2
+IDLOC 8000-8003 2
+SFR10 500-51F 1
+SFR11 580-59F 1
+SFR12 600-61F 1
+SFR13 680-6EF 1
+SFR14 700-76F 1
+SFR15 780-7EF 1
+SFR16 800-86F 1
+SFR17 880-8EF 1
+SFR18 900-96F 1
+SFR19 980-9EF 1
+SFR20 A00-A6F 1
+SFR21 A80-AEF 1
+SFR22 B00-B6F 1
+SFR23 B80-BEF 1
+SFR24 C00-C6F 1
+SFR25 C80-CEF 1
+SFR26 D00-D6F 1
+SFR27 D80-DEF 1
+SFR28 E00-E6F 1
+SFR29 E80-EEF 1
+SFR30 F00-F6F 1
+SFR31 F80-FEF 1
+STACK 20B3-22C3 1
+CODE 1028-11F8 2
+CODE 1800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-11F 1
+SFR3 180-19F 1
+SFR4 200-21F 1
+SFR5 280-29F 1
+SFR6 300-31F 1
+SFR7 380-39F 1
+SFR8 400-41F 1
+SFR9 480-49F 1
+BIGRAM 2000-23EF 1
+EEDATA F000-F0FF 2
+STRCODE 1028-11F8 2
+STRCODE 1800-1FFF 2
+STRING 1028-11F8 2
+STRING 1800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/debug\glucose_meter2A.X.debug.obj
+1DD cinit CODE >3450:C:\Users\Tom\AppData\Local\Temp\s81g.
+1DD cinit CODE >3453:C:\Users\Tom\AppData\Local\Temp\s81g.
+1DD cinit CODE >3676:C:\Users\Tom\AppData\Local\Temp\s81g.
+1DE cinit CODE >3677:C:\Users\Tom\AppData\Local\Temp\s81g.
+1DF cinit CODE >3678:C:\Users\Tom\AppData\Local\Temp\s81g.
+1E0 cinit CODE >3679:C:\Users\Tom\AppData\Local\Temp\s81g.
+1E1 cinit CODE >3680:C:\Users\Tom\AppData\Local\Temp\s81g.
+1E2 cinit CODE >3681:C:\Users\Tom\AppData\Local\Temp\s81g.
+1E3 cinit CODE >3682:C:\Users\Tom\AppData\Local\Temp\s81g.
+1E4 cinit CODE >3683:C:\Users\Tom\AppData\Local\Temp\s81g.
+1E5 cinit CODE >3684:C:\Users\Tom\AppData\Local\Temp\s81g.
+1E8 cinit CODE >3688:C:\Users\Tom\AppData\Local\Temp\s81g.
+1E9 cinit CODE >3689:C:\Users\Tom\AppData\Local\Temp\s81g.
+1EA cinit CODE >3690:C:\Users\Tom\AppData\Local\Temp\s81g.
+1EB cinit CODE >3691:C:\Users\Tom\AppData\Local\Temp\s81g.
+1EC cinit CODE >3692:C:\Users\Tom\AppData\Local\Temp\s81g.
+1ED cinit CODE >3693:C:\Users\Tom\AppData\Local\Temp\s81g.
+1EE cinit CODE >3697:C:\Users\Tom\AppData\Local\Temp\s81g.
+1EF cinit CODE >3698:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F0 cinit CODE >3699:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F1 cinit CODE >3700:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F2 cinit CODE >3701:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F3 cinit CODE >3702:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F4 cinit CODE >3706:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F5 cinit CODE >3707:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F6 cinit CODE >3708:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F7 cinit CODE >3709:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F8 cinit CODE >3710:C:\Users\Tom\AppData\Local\Temp\s81g.
+1F9 cinit CODE >3711:C:\Users\Tom\AppData\Local\Temp\s81g.
+1FA cinit CODE >3712:C:\Users\Tom\AppData\Local\Temp\s81g.
+1FB cinit CODE >3713:C:\Users\Tom\AppData\Local\Temp\s81g.
+1FC cinit CODE >3714:C:\Users\Tom\AppData\Local\Temp\s81g.
+1FF cinit CODE >3735:C:\Users\Tom\AppData\Local\Temp\s81g.
+202 cinit CODE >3736:C:\Users\Tom\AppData\Local\Temp\s81g.
+203 cinit CODE >3740:C:\Users\Tom\AppData\Local\Temp\s81g.
+204 cinit CODE >3741:C:\Users\Tom\AppData\Local\Temp\s81g.
+205 cinit CODE >3742:C:\Users\Tom\AppData\Local\Temp\s81g.
+206 cinit CODE >3743:C:\Users\Tom\AppData\Local\Temp\s81g.
+207 cinit CODE >3744:C:\Users\Tom\AppData\Local\Temp\s81g.
+208 cinit CODE >3745:C:\Users\Tom\AppData\Local\Temp\s81g.
+209 cinit CODE >3746:C:\Users\Tom\AppData\Local\Temp\s81g.
+20A cinit CODE >3747:C:\Users\Tom\AppData\Local\Temp\s81g.
+20B cinit CODE >3748:C:\Users\Tom\AppData\Local\Temp\s81g.
+20C cinit CODE >3749:C:\Users\Tom\AppData\Local\Temp\s81g.
+20D cinit CODE >3750:C:\Users\Tom\AppData\Local\Temp\s81g.
+20E cinit CODE >3751:C:\Users\Tom\AppData\Local\Temp\s81g.
+211 cinit CODE >3755:C:\Users\Tom\AppData\Local\Temp\s81g.
+212 cinit CODE >3756:C:\Users\Tom\AppData\Local\Temp\s81g.
+213 cinit CODE >3757:C:\Users\Tom\AppData\Local\Temp\s81g.
+214 cinit CODE >3758:C:\Users\Tom\AppData\Local\Temp\s81g.
+215 cinit CODE >3759:C:\Users\Tom\AppData\Local\Temp\s81g.
+216 cinit CODE >3760:C:\Users\Tom\AppData\Local\Temp\s81g.
+217 cinit CODE >3761:C:\Users\Tom\AppData\Local\Temp\s81g.
+218 cinit CODE >3762:C:\Users\Tom\AppData\Local\Temp\s81g.
+219 cinit CODE >3763:C:\Users\Tom\AppData\Local\Temp\s81g.
+21A cinit CODE >3764:C:\Users\Tom\AppData\Local\Temp\s81g.
+21B cinit CODE >3765:C:\Users\Tom\AppData\Local\Temp\s81g.
+21C cinit CODE >3766:C:\Users\Tom\AppData\Local\Temp\s81g.
+21E cinit CODE >3772:C:\Users\Tom\AppData\Local\Temp\s81g.
+21E cinit CODE >3774:C:\Users\Tom\AppData\Local\Temp\s81g.
+21F cinit CODE >3775:C:\Users\Tom\AppData\Local\Temp\s81g.
+220 cinit CODE >3776:C:\Users\Tom\AppData\Local\Temp\s81g.
+4 intentry CODE >475:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+9 intentry CODE >477:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+B intentry CODE >479:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+C intentry CODE >481:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D intentry CODE >482:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+12 intentry CODE >484:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1D intentry CODE >485:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+27 intentry CODE >486:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+30 intentry CODE >491:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+62 intentry CODE >492:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+6C intentry CODE >497:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+6E intentry CODE >499:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+6F intentry CODE >500:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+78 intentry CODE >501:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+80 intentry CODE >502:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+81 intentry CODE >503:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+83 intentry CODE >504:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+84 intentry CODE >505:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+86 intentry CODE >506:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+87 intentry CODE >507:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+88 intentry CODE >508:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+89 intentry CODE >509:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+8A intentry CODE >510:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+8B intentry CODE >511:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+8D intentry CODE >512:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+8F intentry CODE >513:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+91 intentry CODE >514:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+92 intentry CODE >515:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+94 intentry CODE >516:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+96 intentry CODE >518:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+99 intentry CODE >519:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+9A intentry CODE >520:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+9C intentry CODE >523:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+9E intentry CODE >525:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+9F intentry CODE >526:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+A2 intentry CODE >528:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+A3 intentry CODE >529:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+A7 intentry CODE >531:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+A9 intentry CODE >532:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+AA intentry CODE >533:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+AB intentry CODE >534:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+AE intentry CODE >536:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+AF intentry CODE >537:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+B2 intentry CODE >542:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+B3 intentry CODE >543:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+B4 intentry CODE >544:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+B5 intentry CODE >545:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+B5 intentry CODE >546:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+B7 intentry CODE >547:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+C1 intentry CODE >549:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+C4 intentry CODE >551:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+C5 intentry CODE >553:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+C9 intentry CODE >556:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CC intentry CODE >557:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CD intentry CODE >558:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D7 intentry CODE >559:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D8 intentry CODE >560:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+DC intentry CODE >562:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+DF intentry CODE >563:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E1 intentry CODE >564:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E3 intentry CODE >565:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EC intentry CODE >566:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+ED intentry CODE >569:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EF intentry CODE >570:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+F1 intentry CODE >576:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+F4 intentry CODE >578:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+F5 intentry CODE >580:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FC intentry CODE >581:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+107 intentry CODE >582:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+115 intentry CODE >584:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+122 intentry CODE >591:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+130 intentry CODE >593:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+133 intentry CODE >595:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+134 intentry CODE >598:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+139 intentry CODE >600:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+13D intentry CODE >602:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+14A intentry CODE >604:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+185 intentry CODE >605:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+189 intentry CODE >606:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+18B intentry CODE >607:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+18C intentry CODE >608:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+18C intentry CODE >610:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+18D intentry CODE >611:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+18F intentry CODE >612:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+191 intentry CODE >613:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+193 intentry CODE >614:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+197 intentry CODE >615:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+199 intentry CODE >618:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+19A intentry CODE >622:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1A8 intentry CODE >623:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1B1 intentry CODE >626:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1C9 intentry CODE >628:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1CF intentry CODE >630:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1D1 intentry CODE >634:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1D4 intentry CODE >635:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1D6 intentry CODE >641:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+133F text43 CODE >263:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1340 text43 CODE >265:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1344 text43 CODE >266:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+134A text43 CODE >267:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+134C text43 CODE >270:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+134D text43 CODE >272:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1352 text43 CODE >273:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1353 text43 CODE >274:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1356 text43 CODE >275:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1357 text43 CODE >276:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1359 text43 CODE >277:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+135A text43 CODE >272:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1362 text43 CODE >279:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1363 text43 CODE >280:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+14FC text42 CODE >234:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+14FC text42 CODE >236:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+14FE text42 CODE >237:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+14FF text42 CODE >238:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1500 text42 CODE >239:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1501 text42 CODE >240:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1502 text42 CODE >242:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1504 text42 CODE >243:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1505 text42 CODE >244:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1506 text42 CODE >247:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1507 text42 CODE >248:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1510 text42 CODE >249:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1512 text42 CODE >251:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+151A text42 CODE >252:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1522 text42 CODE >253:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+152A text42 CODE >254:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1532 text42 CODE >256:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+153A text42 CODE >257:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1541 text42 CODE >258:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+808 text40 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+808 text40 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+811 text40 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+818 text40 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+81C text40 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+822 text40 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+827 text40 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+82B text40 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+835 text40 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+83B text40 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+83B text40 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+840 text40 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+842 text40 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+848 text40 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+84E text40 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+850 text40 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+856 text40 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+858 text40 CODE >82:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+868 text40 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+86B text40 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+86C text40 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\float.c
+131D text39 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+131D text39 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+131F text39 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+1321 text39 CODE >38:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+1326 text39 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+1328 text39 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awtoft.c
+A5D text38 CODE >86:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+A5D text38 CODE >90:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+A6A text38 CODE >91:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+A76 text38 CODE >92:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+A85 text38 CODE >93:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+A8C text38 CODE >94:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+A9B text38 CODE >96:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+A9F text38 CODE >97:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AA0 text38 CODE >98:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AA1 text38 CODE >99:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AA2 text38 CODE >100:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AA3 text38 CODE >101:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AA4 text38 CODE >102:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AAA text38 CODE >103:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AAB text38 CODE >104:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AB1 text38 CODE >106:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AB5 text38 CODE >110:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+ABB text38 CODE >111:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+ABD text38 CODE >112:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AC8 text38 CODE >114:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+ACE text38 CODE >115:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AD2 text38 CODE >113:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AD7 text38 CODE >117:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+ADB text38 CODE >121:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AE1 text38 CODE >122:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AE3 text38 CODE >123:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AEE text38 CODE >125:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AF4 text38 CODE >126:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AF8 text38 CODE >124:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AFC text38 CODE >129:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+AFE text38 CODE >131:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B04 text38 CODE >132:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B0E text38 CODE >134:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B10 text38 CODE >136:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B16 text38 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B20 text38 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B21 text38 CODE >140:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B27 text38 CODE >141:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B29 text38 CODE >142:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B2F text38 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B39 text38 CODE >144:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+B3B text38 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftadd.c
+147E text37 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+147E text37 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+1481 text37 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+1495 text37 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+1497 text37 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+14AB text37 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+14AD text37 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+14AF text37 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftge.c
+9A9 text36 CODE >62:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+9A9 text36 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+9B9 text36 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+9C0 text36 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+9CF text36 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+9D6 text36 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+9DB text36 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+9EB text36 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+9FB text36 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+9FF text36 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A00 text36 CODE >77:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A01 text36 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A07 text36 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A0D text36 CODE >134:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A11 text36 CODE >136:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A13 text36 CODE >137:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A19 text36 CODE >138:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A1F text36 CODE >139:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A25 text36 CODE >140:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A29 text36 CODE >143:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A2D text36 CODE >145:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A2F text36 CODE >146:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A35 text36 CODE >147:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A3B text36 CODE >148:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A41 text36 CODE >149:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+A45 text36 CODE >156:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftmul.c
+86D text35 CODE >385:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+86D text35 CODE >391:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+884 text35 CODE >393:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+89C text35 CODE >395:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+8CD text35 CODE >397:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+8CE text35 CODE >400:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+14BA text34 CODE >534:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+14BA text34 CODE >536:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+14C7 text34 CODE >537:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+14D4 text34 CODE >538:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+14E1 text34 CODE >539:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+14EE text34 CODE >540:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+14FB text34 CODE >541:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+13E7 text33 CODE >263:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+13E9 text33 CODE >265:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+13ED text33 CODE >266:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+13F3 text33 CODE >267:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+13F5 text33 CODE >270:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+13F6 text33 CODE >272:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+13FC text33 CODE >273:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+13FE text33 CODE >274:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1403 text33 CODE >275:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1405 text33 CODE >276:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1408 text33 CODE >277:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+140A text33 CODE >272:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1413 text33 CODE >279:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1415 text33 CODE >280:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+127B text32 CODE >190:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+127D text32 CODE >191:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1286 text32 CODE >192:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+128F text32 CODE >193:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1364 text31 CODE >226:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1364 text31 CODE >227:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1372 text31 CODE >228:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1378 text31 CODE >227:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1388 text31 CODE >230:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+138D text31 CODE >232:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+15D6 text30 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15D6 text30 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15D8 text30 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15DA text30 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15DF text30 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15E1 text30 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15E3 text30 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15E8 text30 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15EC text30 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15EE text30 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15F2 text30 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15F4 text30 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15F6 text30 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15FB text30 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+15FF text30 CODE >26:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+1600 text30 CODE >31:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+1605 text30 CODE >32:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+160D text30 CODE >33:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+1611 text30 CODE >34:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+1612 text30 CODE >36:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+1617 text30 CODE >37:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+161B text30 CODE >39:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+161E text30 CODE >40:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+1623 text30 CODE >41:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\awdiv.c
+1779 text29 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+1779 text29 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+1789 text29 CODE >50:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+1792 text29 CODE >51:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17A2 text29 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17A3 text29 CODE >53:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17A9 text29 CODE >54:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17B0 text29 CODE >55:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17B2 text29 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17B4 text29 CODE >57:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17B9 text29 CODE >58:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17C2 text29 CODE >60:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17C9 text29 CODE >61:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17D0 text29 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17D4 text29 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17DD text29 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17E4 text29 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17E6 text29 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17E6 text29 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17E9 text29 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17EC text29 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+17F7 text29 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\fttol.c
+168C text28 CODE >153:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+168C text28 CODE >155:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1693 text28 CODE >156:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1695 text28 CODE >158:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+16BE text28 CODE >159:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+16E0 text28 CODE >160:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+16F6 text28 CODE >162:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+16F9 text28 CODE >164:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+16FF text28 CODE >166:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1700 text28 CODE >167:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+11FA text27 CODE >186:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+11FA text27 CODE >193:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+11FD text27 CODE >194:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+800 text26 CODE >212:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+800 text26 CODE >214:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+803 text26 CODE >215:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+805 text26 CODE >216:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+807 text26 CODE >217:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1542 text25 CODE >108:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1542 text25 CODE >112:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1544 text25 CODE >113:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1548 text25 CODE >114:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+154C text25 CODE >117:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+154F text25 CODE >118:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1552 text25 CODE >119:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1554 text25 CODE >120:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1556 text25 CODE >123:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1557 text25 CODE >124:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1559 text25 CODE >125:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+155B text25 CODE >126:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+155C text25 CODE >127:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+155E text25 CODE >128:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1560 text25 CODE >129:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1562 text25 CODE >130:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1564 text25 CODE >131:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1565 text25 CODE >132:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1567 text25 CODE >133:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1568 text25 CODE >134:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1569 text25 CODE >135:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+156A text25 CODE >136:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+156C text25 CODE >139:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+156E text25 CODE >143:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1570 text25 CODE >144:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1571 text25 CODE >145:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1572 text25 CODE >146:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1573 text25 CODE >149:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1575 text25 CODE >150:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1576 text25 CODE >151:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1577 text25 CODE >152:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+157B text25 CODE >154:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+157D text25 CODE >155:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+157F text25 CODE >158:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1580 text25 CODE >159:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1581 text25 CODE >160:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1582 text25 CODE >161:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1583 text25 CODE >162:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1584 text25 CODE >163:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1585 text25 CODE >164:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1586 text25 CODE >167:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1588 text25 CODE >169:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+120D text24 CODE >510:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+120D text24 CODE >512:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1212 text24 CODE >513:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1213 text24 CODE >514:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1214 text24 CODE >515:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1215 text24 CODE >516:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1217 text24 CODE >517:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1589 text23 CODE >234:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1589 text23 CODE >236:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+158B text23 CODE >237:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+158C text23 CODE >238:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+158D text23 CODE >239:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+158E text23 CODE >240:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+158F text23 CODE >242:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1591 text23 CODE >243:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1592 text23 CODE >244:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1593 text23 CODE >247:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1594 text23 CODE >248:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+159E text23 CODE >249:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+15A0 text23 CODE >251:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+15A9 text23 CODE >252:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+15B2 text23 CODE >253:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+15BB text23 CODE >254:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+15C4 text23 CODE >256:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+15CD text23 CODE >257:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+15D5 text23 CODE >258:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+12DE text22 CODE >75:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12DE text22 CODE >78:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12E1 text22 CODE >81:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12E4 text22 CODE >82:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12E7 text22 CODE >83:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12EA text22 CODE >84:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12EC text22 CODE >85:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12F5 text22 CODE >86:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12F7 text22 CODE >88:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12F8 text22 CODE >89:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12FA text22 CODE >90:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12FB text22 CODE >91:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+12C2 text21 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+12C2 text21 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+12C5 text21 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+12C7 text21 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+12CB text21 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+12D0 text21 CODE >48:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+12D5 text21 CODE >49:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+12D9 text21 CODE >52:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul16.c
+7A1 text20 CODE >202:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+7A3 text20 CODE >203:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+7A8 text20 CODE >205:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+7B6 text20 CODE >206:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+7DE text20 CODE >205:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+7EE text20 CODE >209:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+7F3 text20 CODE >210:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1290 text19 CODE >219:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1290 text19 CODE >220:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+1298 text19 CODE >221:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+12A6 text19 CODE >220:C:\Users\Tom\Documents\glucose_meter2A.X\Nokia5110/Nokia.c
+12FC text18 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeread.c
+12FE text18 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeread.c
+1300 text18 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeread.c
+1300 text18 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeread.c
+1301 text18 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeread.c
+1304 text18 CODE >11:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eeread.c
+1701 text17 CODE >117:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1703 text17 CODE >119:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+170E text17 CODE >120:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1717 text17 CODE >121:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+171C text17 CODE >122:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1725 text17 CODE >123:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+172A text17 CODE >124:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1733 text17 CODE >125:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1738 text17 CODE >126:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1741 text17 CODE >127:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1746 text17 CODE >128:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+174F text17 CODE >129:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1754 text17 CODE >130:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+175D text17 CODE >131:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1762 text17 CODE >132:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+176B text17 CODE >133:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1770 text17 CODE >134:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1778 text17 CODE >136:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+138E text16 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eewrite.c
+1390 text16 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\pic\eewrite.c
+1628 text15 CODE >84:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1628 text15 CODE >86:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+162D text15 CODE >87:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1638 text15 CODE >89:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1640 text15 CODE >90:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+164A text15 CODE >91:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1654 text15 CODE >92:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+165E text15 CODE >93:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1668 text15 CODE >94:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1672 text15 CODE >95:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+167C text15 CODE >96:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1685 text15 CODE >97:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+168A text15 CODE >98:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+168B text15 CODE >99:C:\Users\Tom\Documents\glucose_meter2A.X\EEPROM.c
+1416 text14 CODE >421:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1416 text14 CODE >423:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1419 text14 CODE >424:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+141A text14 CODE >425:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+141B text14 CODE >426:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+141C text14 CODE >427:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1425 text14 CODE >428:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1427 text14 CODE >429:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1428 text14 CODE >430:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+142B text14 CODE >434:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+142D text14 CODE >435:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+142E text14 CODE >436:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+142F text14 CODE >437:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1430 text14 CODE >439:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1432 text14 CODE >440:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1433 text14 CODE >441:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1434 text14 CODE >442:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1435 text14 CODE >444:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1437 text14 CODE >445:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1438 text14 CODE >446:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+143A text14 CODE >447:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+143B text14 CODE >448:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+143C text14 CODE >450:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+143E text14 CODE >451:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1440 text14 CODE >452:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1441 text14 CODE >453:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1443 text14 CODE >454:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1444 text14 CODE >455:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1445 text14 CODE >456:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1446 text14 CODE >457:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1447 text14 CODE >458:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1448 text14 CODE >459:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CAE text13 CODE >282:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CAE text13 CODE >284:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CB0 text13 CODE >285:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CB2 text13 CODE >287:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CB7 text13 CODE >289:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CBD text13 CODE >291:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CC0 text13 CODE >292:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CC1 text13 CODE >293:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CC3 text13 CODE >294:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CC5 text13 CODE >295:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CC7 text13 CODE >296:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CCD text13 CODE >298:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CD1 text13 CODE >299:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CDB text13 CODE >300:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CE6 text13 CODE >301:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CF4 text13 CODE >302:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+CFB text13 CODE >296:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D03 text13 CODE >304:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D14 text13 CODE >306:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D1F text13 CODE >308:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D21 text13 CODE >309:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D23 text13 CODE >310:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D26 text13 CODE >312:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D2D text13 CODE >314:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D36 text13 CODE >315:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D55 text13 CODE >316:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D58 text13 CODE >317:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D59 text13 CODE >318:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D5A text13 CODE >319:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D5B text13 CODE >322:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D5E text13 CODE >324:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D65 text13 CODE >326:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D67 text13 CODE >327:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D69 text13 CODE >328:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D72 text13 CODE >329:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D7A text13 CODE >330:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D7C text13 CODE >331:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D7E text13 CODE >332:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D7F text13 CODE >333:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D81 text13 CODE >337:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D88 text13 CODE >339:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D8B text13 CODE >341:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D92 text13 CODE >343:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D95 text13 CODE >344:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D96 text13 CODE >345:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D98 text13 CODE >348:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+D9F text13 CODE >350:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+DAD text13 CODE >351:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+DB6 text13 CODE >353:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+DCE text13 CODE >355:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+DD4 text13 CODE >357:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+DD7 text13 CODE >359:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+DDE text13 CODE >361:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+DE7 text13 CODE >362:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E06 text13 CODE >363:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E08 text13 CODE >364:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E09 text13 CODE >365:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E0A text13 CODE >366:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E0B text13 CODE >367:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1255 text12 CODE >447:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1255 text12 CODE >449:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1258 text12 CODE >451:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+125D text12 CODE >452:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1260 text12 CODE >453:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1262 text12 CODE >457:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1264 text12 CODE >458:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1266 text12 CODE >459:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1268 text11 CODE >479:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1268 text11 CODE >481:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+126B text11 CODE >483:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1270 text11 CODE >484:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1273 text11 CODE >485:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1275 text11 CODE >488:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1277 text11 CODE >489:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1279 text11 CODE >490:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1243 text10 CODE >4:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+1245 text10 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+1246 text10 CODE >43:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+1248 text10 CODE >44:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+124C text10 CODE >45:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+124E text10 CODE >46:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+1250 text10 CODE >47:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+1253 text10 CODE >50:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\Umul8.c
+1449 text9 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+1449 text9 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+144C text9 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+1450 text9 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+1452 text9 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+1454 text9 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+1459 text9 CODE >19:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+145D text9 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+145E text9 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+1463 text9 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+146B text9 CODE >24:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+146F text9 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+1470 text9 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+1475 text9 CODE >28:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+1479 text9 CODE >30:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwdiv.c
+13BA text8 CODE >6:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13BA text8 CODE >13:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13BF text8 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13C1 text8 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13C3 text8 CODE >16:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13C8 text8 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13CC text8 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13CD text8 CODE >20:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13D5 text8 CODE >21:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13D9 text8 CODE >22:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13DE text8 CODE >23:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+13E2 text8 CODE >25:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lwmod.c
+1224 text7 CODE >8:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\isdigit.c
+1226 text7 CODE >14:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\isdigit.c
+11F9 text6 CODE >7:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\putch.c
+11F9 text6 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\putch.c
+B53 text5 CODE >464:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B53 text5 CODE >533:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B58 text5 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B6B text5 CODE >538:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B6F text5 CODE >541:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B73 text5 CODE >542:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B74 text5 CODE >546:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B77 text5 CODE >548:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B78 text5 CODE >551:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B79 text5 CODE >579:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B79 text5 CODE >580:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B7A text5 CODE >581:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B7E text5 CODE >551:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B87 text5 CODE >597:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B91 text5 CODE >598:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+B94 text5 CODE >600:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+BA5 text5 CODE >601:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+BB8 text5 CODE >602:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+BC2 text5 CODE >635:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+BDA text5 CODE >1259:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+BE6 text5 CODE >1261:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+BE8 text5 CODE >1262:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+BEC text5 CODE >1263:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+BF1 text5 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+BF7 text5 CODE >1306:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C0E text5 CODE >1305:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C16 text5 CODE >1345:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C1E text5 CODE >1346:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C22 text5 CODE >1381:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C33 text5 CODE >1382:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C3E text5 CODE >1384:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C41 text5 CODE >1387:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C43 text5 CODE >1392:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C47 text5 CODE >1393:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C4B text5 CODE >1415:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C50 text5 CODE >1417:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C54 text5 CODE >1418:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C5A text5 CODE >1428:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C5E text5 CODE >1430:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C62 text5 CODE >1431:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C6B text5 CODE >1438:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C6F text5 CODE >1439:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C73 text5 CODE >1472:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C78 text5 CODE >1474:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+C80 text5 CODE >1489:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+CA8 text5 CODE >1524:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+CAC text5 CODE >1474:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+CAD text5 CODE >1541:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\doprnt.c
+1014 swtext2 CONST >327:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+1000 swtext1 CONST >270:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+542 text4 CODE >234:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+542 text4 CODE >236:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+545 text4 CODE >237:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+546 text4 CODE >238:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+54D text4 CODE >239:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+557 text4 CODE >241:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+558 text4 CODE >242:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+559 text4 CODE >243:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+55A text4 CODE >244:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+55B text4 CODE >245:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+55D text4 CODE >246:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+55E text4 CODE >247:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+55F text4 CODE >248:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+560 text4 CODE >250:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+561 text4 CODE >251:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+562 text4 CODE >252:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+564 text4 CODE >253:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+565 text4 CODE >254:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+568 text4 CODE >255:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+56B text4 CODE >256:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+571 text4 CODE >258:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+578 text4 CODE >260:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+579 text4 CODE >262:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+57D text4 CODE >265:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+583 text4 CODE >267:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+589 text4 CODE >268:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+58C text4 CODE >269:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+592 text4 CODE >270:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+593 text4 CODE >276:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5A4 text4 CODE >281:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5A5 text4 CODE >283:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5B6 text4 CODE >288:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5B7 text4 CODE >290:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5C8 text4 CODE >295:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5C9 text4 CODE >297:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5DA text4 CODE >302:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5DB text4 CODE >304:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5EC text4 CODE >311:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5ED text4 CODE >270:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+5F8 text4 CODE >312:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+606 text4 CODE >313:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+607 text4 CODE >316:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+60D text4 CODE >318:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+613 text4 CODE >319:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+621 text4 CODE >320:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+622 text4 CODE >323:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+627 text4 CODE >325:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+62A text4 CODE >326:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+630 text4 CODE >327:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+631 text4 CODE >330:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+639 text4 CODE >334:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+63F text4 CODE >335:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+64F text4 CODE >336:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+65E text4 CODE >340:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+664 text4 CODE >341:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+665 text4 CODE >344:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+66B text4 CODE >345:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+67C text4 CODE >350:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+682 text4 CODE >351:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+683 text4 CODE >354:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+689 text4 CODE >355:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+699 text4 CODE >357:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+69B text4 CODE >359:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6A1 text4 CODE >360:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6A2 text4 CODE >363:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6A8 text4 CODE >364:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6B8 text4 CODE >366:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6BA text4 CODE >369:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6C0 text4 CODE >370:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6C1 text4 CODE >371:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6C2 text4 CODE >373:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6C8 text4 CODE >374:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6D8 text4 CODE >376:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6DA text4 CODE >377:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6E0 text4 CODE >378:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6E1 text4 CODE >380:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6E2 text4 CODE >381:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6E3 text4 CODE >383:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6E4 text4 CODE >327:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6F2 text4 CODE >384:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6F8 text4 CODE >385:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6FC text4 CODE >387:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+6FD text4 CODE >388:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+700 text4 CODE >389:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+706 text4 CODE >391:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+70D text4 CODE >393:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+70F text4 CODE >394:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+71C text4 CODE >395:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+729 text4 CODE >396:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+736 text4 CODE >397:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+743 text4 CODE >398:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+750 text4 CODE >399:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+75D text4 CODE >400:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+76A text4 CODE >401:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+777 text4 CODE >403:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+778 text4 CODE >406:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+77A text4 CODE >407:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+77B text4 CODE >409:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+784 text4 CODE >410:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+78C text4 CODE >411:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+78D text4 CODE >412:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+78F text4 CODE >413:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+790 text4 CODE >262:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+791 text4 CODE >417:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+794 text4 CODE >418:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+796 text4 CODE >419:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+797 text4 CODE >422:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+798 text4 CODE >423:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+799 text4 CODE >424:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+79A text4 CODE >425:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+79B text4 CODE >426:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+79D text4 CODE >427:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+79E text4 CODE >428:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+79F text4 CODE >429:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+7A0 text4 CODE >430:C:\Users\Tom\Documents\glucose_meter2A.X\user.c
+900 text3 CODE >56:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+900 text3 CODE >63:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+910 text3 CODE >64:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+917 text3 CODE >65:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+926 text3 CODE >66:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+92D text3 CODE >67:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+933 text3 CODE >68:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+938 text3 CODE >69:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+948 text3 CODE >70:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+958 text3 CODE >71:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+95C text3 CODE >72:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+95D text3 CODE >73:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+963 text3 CODE >74:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+964 text3 CODE >75:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+96A text3 CODE >76:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+96E text3 CODE >78:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+974 text3 CODE >79:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+980 text3 CODE >80:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+986 text3 CODE >81:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+987 text3 CODE >83:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+98D text3 CODE >84:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+991 text3 CODE >85:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftdiv.c
+1204 text2 CODE >15:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftneg.c
+1204 text2 CODE >17:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftneg.c
+120A text2 CODE >18:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\ftneg.c
+12A7 text1 CODE >27:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbtoft.c
+12A9 text1 CODE >29:C:\Program Files (x86)\Microchip\xc8\v1.37\sources\common\lbtoft.c
+E0C maintext CODE >107:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E0C maintext CODE >109:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E0F maintext CODE >110:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E12 maintext CODE >111:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E15 maintext CODE >113:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E1D maintext CODE >118:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E20 maintext CODE >119:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E23 maintext CODE >121:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E2B maintext CODE >122:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E35 maintext CODE >123:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E3D maintext CODE >124:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E40 maintext CODE >125:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E43 maintext CODE >131:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E44 maintext CODE >133:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E47 maintext CODE >134:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E49 maintext CODE >135:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E4C maintext CODE >136:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E4D maintext CODE >137:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E50 maintext CODE >138:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E51 maintext CODE >139:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E52 maintext CODE >140:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E53 maintext CODE >141:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E54 maintext CODE >144:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E55 maintext CODE >145:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E5E maintext CODE >146:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E75 maintext CODE >147:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E78 maintext CODE >148:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E79 maintext CODE >149:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E7A maintext CODE >150:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E7B maintext CODE >151:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E7C maintext CODE >154:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E82 maintext CODE >157:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E85 maintext CODE >158:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E88 maintext CODE >160:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E8F maintext CODE >162:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E91 maintext CODE >163:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E93 maintext CODE >164:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E94 maintext CODE >165:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E98 maintext CODE >167:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E9B maintext CODE >170:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+E9E maintext CODE >171:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EA4 maintext CODE >172:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EA7 maintext CODE >173:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EA9 maintext CODE >174:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EB0 maintext CODE >175:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EB1 maintext CODE >176:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EB5 maintext CODE >178:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EB8 maintext CODE >179:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EBB maintext CODE >181:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EC2 maintext CODE >183:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EC6 maintext CODE >184:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EC9 maintext CODE >185:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+ECB maintext CODE >188:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+ECC maintext CODE >191:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+ECD maintext CODE >192:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+ECE maintext CODE >193:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+ECF maintext CODE >194:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+ED0 maintext CODE >131:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+ED4 maintext CODE >142:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+ED7 maintext CODE >152:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EDB maintext CODE >189:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EDF maintext CODE >198:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EE2 maintext CODE >199:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EE5 maintext CODE >200:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EE8 maintext CODE >202:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EE9 maintext CODE >204:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EF2 maintext CODE >205:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EF6 maintext CODE >207:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+EF9 maintext CODE >208:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+F10 maintext CODE >209:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+F1E maintext CODE >210:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+F40 maintext CODE >211:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+F55 maintext CODE >212:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+F95 maintext CODE >213:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FA9 maintext CODE >214:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FAD maintext CODE >215:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FB0 maintext CODE >228:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FB3 maintext CODE >231:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FBA maintext CODE >236:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FBD maintext CODE >238:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FBF maintext CODE >239:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FC2 maintext CODE >242:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FC5 maintext CODE >243:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FC8 maintext CODE >244:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FC9 maintext CODE >245:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FCA maintext CODE >246:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FCB maintext CODE >249:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FCE maintext CODE >251:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FCF maintext CODE >252:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FD2 maintext CODE >254:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FD9 maintext CODE >256:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FE2 maintext CODE >257:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FF9 maintext CODE >258:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FFC maintext CODE >259:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FFD maintext CODE >260:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FFE maintext CODE >261:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+FFF maintext CODE >128:C:\Users\Tom\Documents\glucose_meter2A.X\glucose_meter_main.c
+1218 inittext CODE >3718:C:\Users\Tom\AppData\Local\Temp\s81g.
+1218 inittext CODE >3719:C:\Users\Tom\AppData\Local\Temp\s81g.
+1219 inittext CODE >3720:C:\Users\Tom\AppData\Local\Temp\s81g.
+1219 inittext CODE >3721:C:\Users\Tom\AppData\Local\Temp\s81g.
+121A inittext CODE >3722:C:\Users\Tom\AppData\Local\Temp\s81g.
+121B inittext CODE >3723:C:\Users\Tom\AppData\Local\Temp\s81g.
+121C inittext CODE >3724:C:\Users\Tom\AppData\Local\Temp\s81g.
+121D inittext CODE >3725:C:\Users\Tom\AppData\Local\Temp\s81g.
+121E inittext CODE >3726:C:\Users\Tom\AppData\Local\Temp\s81g.
+121F inittext CODE >3727:C:\Users\Tom\AppData\Local\Temp\s81g.
+1220 inittext CODE >3728:C:\Users\Tom\AppData\Local\Temp\s81g.
+1221 inittext CODE >3729:C:\Users\Tom\AppData\Local\Temp\s81g.
+1222 inittext CODE >3731:C:\Users\Tom\AppData\Local\Temp\s81g.
+1223 inittext CODE >3730:C:\Users\Tom\AppData\Local\Temp\s81g.
+7F4 clrtext CODE >3659:C:\Users\Tom\AppData\Local\Temp\s81g.
+7F4 clrtext CODE >3660:C:\Users\Tom\AppData\Local\Temp\s81g.
+7F5 clrtext CODE >3661:C:\Users\Tom\AppData\Local\Temp\s81g.
+7F5 clrtext CODE >3662:C:\Users\Tom\AppData\Local\Temp\s81g.
+7F6 clrtext CODE >3663:C:\Users\Tom\AppData\Local\Temp\s81g.
+7F7 clrtext CODE >3664:C:\Users\Tom\AppData\Local\Temp\s81g.
+7F8 clrtext CODE >3665:C:\Users\Tom\AppData\Local\Temp\s81g.
+7F9 clrtext CODE >3666:C:\Users\Tom\AppData\Local\Temp\s81g.
+7FA clrtext CODE >3667:C:\Users\Tom\AppData\Local\Temp\s81g.
+7FB clrtext CODE >3668:C:\Users\Tom\AppData\Local\Temp\s81g.
+7FC clrtext CODE >3669:C:\Users\Tom\AppData\Local\Temp\s81g.
+7FD clrtext CODE >3670:C:\Users\Tom\AppData\Local\Temp\s81g.
+7FE clrtext CODE >3672:C:\Users\Tom\AppData\Local\Temp\s81g.
+7FF clrtext CODE >3671:C:\Users\Tom\AppData\Local\Temp\s81g.
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___awdiv@counter 2E 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+gotoXY@x 36 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+gotoXY@y 34 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___lwmod@counter 36 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__LdataBANK1 0 0 ABS 0 dataBANK1 -
+_DisplaySavedGlucoReading 2D18 0 CODE 0 text28 dist/default/debug\glucose_meter2A.X.debug.obj
+__Hspace_0 8009 0 ABS 0 - -
+__Hspace_1 133 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__CFG_IESO$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+__HidataBANK1 0 0 ABS 0 idataBANK1 -
+__end_of_HwInit 25F8 0 CODE 0 text22 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftdiv@exp 3F 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___awtoft@sign 37 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+_ReadSavedGlucoReading 2E02 0 CODE 0 text17 dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_MCLRE$ON 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_T1CONbits 18 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gcounter DE 0 BANK1 1 dataBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+_RD CA8 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_WR CA9 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gY AB 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+ltemp0 7E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+ltemp1 82 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+ltemp2 86 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+ltemp3 80 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gDisplayPreviousReading C4 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__Lstringtext 0 0 ABS 0 stringtext -
+__Hstrings 0 0 ABS 0 strings -
+_Days 61 0 BANK0 1 dataBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_WREN CAA 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_Year 65 0 BANK0 1 dataBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___sp 0 0 STACK 2 stack C:\Users\Tom\AppData\Local\Temp\s81g.obj
+_main 1C18 0 CODE 0 maintext dist/default/debug\glucose_meter2A.X.debug.obj
+btemp 7E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+ltemp 7E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___ftadd@f1 3C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftadd@f2 3F 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_Seconds C2 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+start 3B6 0 CODE 0 init C:\Users\Tom\AppData\Local\Temp\s81g.obj
+ttemp 7E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+wtemp 7E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___awdiv 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_SetTime A84 0 CODE 0 text4 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___ftadd 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___ftdiv 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___ftmul 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___ftneg 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___fttol 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_BOREN$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_main 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___lwdiv 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___lwmod 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+i1LCDWrite@data_or_command 72 0 COMMON 1 cstackCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+_gSavedReadingCnt 5D 0 BANK0 1 bssBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+?___wmul 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_OPTION_REGbits 95 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_LCDCharacter F42 0 CODE 0 text20 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_LCDInit 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___ftdiv@f1 34 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftdiv@f2 31 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftdiv@f3 3C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_LCDClear 26C8 0 CODE 0 text31 dist/default/debug\glucose_meter2A.X.debug.obj
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__LidataBANK1 0 0 ABS 0 idataBANK1 -
+_LCDWrite 27CE 0 CODE 0 text33 dist/default/debug\glucose_meter2A.X.debug.obj
+__Hpowerup 0 0 CODE 0 powerup -
+printf@c 46 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+printf@f 37 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_ConfigureOscillator 23FC 0 CODE 0 text27 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftge@ff1 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftge@ff2 2C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+ttemp0 7E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+ttemp1 81 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+ttemp2 84 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+ttemp3 87 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+ttemp4 7F 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gSenseTestStrip 5E 0 BANK0 1 bssBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@sw1_count 132 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+__HdataCOMMON 0 0 ABS 0 dataCOMMON -
+__end_of_LCDClear 271C 0 CODE 0 text31 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_LCDWrite 282C 0 CODE 0 text33 dist/default/debug\glucose_meter2A.X.debug.obj
+intlevel0 0 0 CODE 0 functab C:\Users\Tom\AppData\Local\Temp\s81g.obj
+intlevel1 0 0 CODE 0 functab C:\Users\Tom\AppData\Local\Temp\s81g.obj
+intlevel2 0 0 CODE 0 functab C:\Users\Tom\AppData\Local\Temp\s81g.obj
+intlevel3 0 0 CODE 0 functab C:\Users\Tom\AppData\Local\Temp\s81g.obj
+intlevel4 0 0 CODE 0 functab C:\Users\Tom\AppData\Local\Temp\s81g.obj
+intlevel5 0 0 CODE 0 functab C:\Users\Tom\AppData\Local\Temp\s81g.obj
+_Delay_1_Second 2974 0 CODE 0 text34 dist/default/debug\glucose_meter2A.X.debug.obj
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+_InitADC 1000 0 CODE 0 text26 dist/default/debug\glucose_meter2A.X.debug.obj
+_InitApp 2A84 0 CODE 0 text25 dist/default/debug\glucose_meter2A.X.debug.obj
+___bmul@multiplicand 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_SW3_pressed 24F6 0 CODE 0 text11 dist/default/debug\glucose_meter2A.X.debug.obj
+wtemp0 7E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+wtemp1 80 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+wtemp2 82 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+wtemp3 84 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+wtemp4 86 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+wtemp5 88 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+wtemp6 7F 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Hfunctab 0 0 CODE 0 functab -
+___awdiv@sign 2F 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__pidataCOMMON 6 0 CODE 0 idataCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+___ftmul@f1 49 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftmul@f2 4C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftneg@f1 39 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_gcaptured2SValue BE 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_LCDCharacter 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___wmul@multiplicand 2B 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+printf@flag 43 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+printf@prec 40 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_SaveGlucoReading 2C50 0 CODE 0 text15 dist/default/debug\glucose_meter2A.X.debug.obj
+_ADCON0 9D 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_ADCON1 9E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_ADCON2 9F 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_ADRESH 9C 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_ADRESL 9B 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+LCDWrite@data 2F 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_InitTimer1 241A 0 CODE 0 text24 dist/default/debug\glucose_meter2A.X.debug.obj
+_gYmmoldecimalchar 7D 0 COMMON 1 dataCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+_ANSELA 18C 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_ANSELB 18D 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+SenseTestStrip@temp_adc 3E 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_gSetDateTime C9 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@month_1 12D 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@month_2 128 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+___awdiv@dividend 2B 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+printf@width 44 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@hour_1 12F 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@hour_2 12A 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+__LdataCOMMON 0 0 ABS 0 dataCOMMON -
+__size_of___awtoft 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gMinutesRead C6 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+_FVRCONbits 117 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_DACCON1 119 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_CalcGlucose 1200 0 CODE 0 text35 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___bmul 24AA 0 CODE 0 text10 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___ftge 2974 0 CODE 0 text37 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___wmul 25BC 0 CODE 0 text21 dist/default/debug\glucose_meter2A.X.debug.obj
+DisplaySavedGlucoReading@read_mgdl E2 0 BANK1 1 cstackBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+DisplaySavedGlucoReading@read_mgdl_int E0 0 BANK1 1 cstackBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+_EEADRS 5B 0 BANK0 1 bssBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_EECON1 195 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_EECON2 196 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_EEDATA 193 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_SW1_pressed 24D0 0 CODE 0 text12 dist/default/debug\glucose_meter2A.X.debug.obj
+___fttol@f1 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__Lmaintext 0 0 ABS 0 maintext -
+?_printf 37 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_DisplaySavedGlucoReading 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___bmul@multiplier 2C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___awdiv@divisor 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_LCDCharacter FE8 0 CODE 0 text20 dist/default/debug\glucose_meter2A.X.debug.obj
+___lwmod@divisor 31 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___ftpack 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_Delay_1_Second 29F8 0 CODE 0 text34 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___awdiv 2C50 0 CODE 0 text30 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___ftadd 16A6 0 CODE 0 text38 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___ftdiv 1352 0 CODE 0 text3 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___ftmul 14BA 0 CODE 0 text36 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___ftneg 241A 0 CODE 0 text2 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___fttol 3000 0 CODE 0 text29 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___lwdiv 28FC 0 CODE 0 text9 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___lwmod 27CE 0 CODE 0 text8 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_isdigit 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+eeprom_write@addr 2C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_RedingCount 77 0 COMMON 1 bssCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+__end_ofi1_LCDInit 2A84 0 CODE 0 text42 dist/default/debug\glucose_meter2A.X.debug.obj
+_HwInit 25BC 0 CODE 0 text22 dist/default/debug\glucose_meter2A.X.debug.obj
+ReadSavedGlucoReading@reading_count 2F 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_gAverageGlucose A0 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_ofi1_LCDInit 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_OPTION_REG 95 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_LCDInit 2BAC 0 CODE 0 text23 dist/default/debug\glucose_meter2A.X.debug.obj
+_dpowers A0C 0 STRCODE 0 stringtext dist/default/debug\glucose_meter2A.X.debug.obj
+_eeprom_read 25F8 0 CODE 0 text18 dist/default/debug\glucose_meter2A.X.debug.obj
+___lwdiv@quotient 2F 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__LidataCOMMON 0 0 ABS 0 idataCOMMON -
+__size_of_putch 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_gotoXY 2520 0 CODE 0 text32 dist/default/debug\glucose_meter2A.X.debug.obj
+_Minutes 63 0 BANK0 1 dataBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___lbtoft 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@tMonth 120 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_LCDString 254E 0 CODE 0 text19 dist/default/debug\glucose_meter2A.X.debug.obj
+___lwmod@dividend 33 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_FCMEN$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_LCDString 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+start_initialization 3BA 0 CODE 0 cinit dist/default/debug\glucose_meter2A.X.debug.obj
+i1_LCDInit 29F8 0 CODE 0 text42 dist/default/debug\glucose_meter2A.X.debug.obj
+_OSCCON 99 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_InitTimer1 2430 0 CODE 0 text24 dist/default/debug\glucose_meter2A.X.debug.obj
+___awtoft 263A 0 CODE 0 text39 dist/default/debug\glucose_meter2A.X.debug.obj
+_TRISAbits 8C 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_TRISBbits 8D 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_TRISCbits 8E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_SenseTestStrip 195C 0 CODE 0 text13 dist/default/debug\glucose_meter2A.X.debug.obj
+_GO_nDONE 4E9 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@year_1 12C 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@year_2 127 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___awtoft 267E 0 CODE 0 text39 dist/default/debug\glucose_meter2A.X.debug.obj
+clear_ram0 FE8 0 CODE 0 clrtext dist/default/debug\glucose_meter2A.X.debug.obj
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__pcstackBANK1 E0 0 BANK1 1 cstackBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__pcstackBANK2 120 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+_LCDString 2520 0 CODE 0 text19 dist/default/debug\glucose_meter2A.X.debug.obj
+___fttol@exp1 36 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___fttol@lval 32 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___lbtoft@c 38 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_SaveGlucoReading 2D18 0 CODE 0 text15 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_HwInit 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___ftpack 1010 0 CODE 0 text40 dist/default/debug\glucose_meter2A.X.debug.obj
+_gglucDataReady 7C 0 COMMON 1 bssCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_printf 195C 0 CODE 0 text5 dist/default/debug\glucose_meter2A.X.debug.obj
+LCDCharacter@index 3A 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_gMemorymode 5C 0 BANK0 1 bssBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_SaveGlucoReading 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___ftpack@arg 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftpack@exp 2C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+LCDClear@index 38 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___int_sp 0 0 STACK 2 stack C:\Users\Tom\AppData\Local\Temp\s81g.obj
+__end_of___ftpack 10DA 0 CODE 0 text40 dist/default/debug\glucose_meter2A.X.debug.obj
+_gStripIdleTime D0 0 BANK1 1 dataBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hbank4 0 0 ABS 0 bank4 -
+__Hbank5 0 0 ABS 0 bank5 -
+__Hbank6 0 0 ABS 0 bank6 -
+__Hbank7 0 0 ABS 0 bank7 -
+__Hbank8 0 0 ABS 0 bank8 -
+__Hbank9 0 0 ABS 0 bank9 -
+__Hcinit 444 0 CODE 0 cinit -
+__Hidloc 0 0 IDLOC 0 idloc -
+__Hsfr10 0 0 ABS 0 sfr10 -
+__Hsfr11 0 0 ABS 0 sfr11 -
+__Hsfr12 0 0 ABS 0 sfr12 -
+__Hsfr13 0 0 ABS 0 sfr13 -
+__Hsfr14 0 0 ABS 0 sfr14 -
+__Hsfr15 0 0 ABS 0 sfr15 -
+__Hsfr16 0 0 ABS 0 sfr16 -
+__Hsfr17 0 0 ABS 0 sfr17 -
+__Hsfr18 0 0 ABS 0 sfr18 -
+__Hsfr19 0 0 ABS 0 sfr19 -
+__Hsfr20 0 0 ABS 0 sfr20 -
+__Hsfr21 0 0 ABS 0 sfr21 -
+__Hsfr22 0 0 ABS 0 sfr22 -
+__Hsfr23 0 0 ABS 0 sfr23 -
+__Hsfr24 0 0 ABS 0 sfr24 -
+__Hsfr25 0 0 ABS 0 sfr25 -
+__Hsfr26 0 0 ABS 0 sfr26 -
+__Hsfr27 0 0 ABS 0 sfr27 -
+__Hsfr28 0 0 ABS 0 sfr28 -
+__Hsfr29 0 0 ABS 0 sfr29 -
+__Hsfr30 0 0 ABS 0 sfr30 -
+__Hsfr31 0 0 ABS 0 sfr31 -
+__Hstack 0 0 STACK 2 stack -
+___lwdiv@counter 2E 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_VREGCONbits 197 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Hbank10 0 0 ABS 0 bank10 -
+__Hbank11 0 0 ABS 0 bank11 -
+__Hbank12 0 0 ABS 0 bank12 -
+__Hbank13 0 0 BANK13 1 bank13 -
+__Hbank14 0 0 BANK14 1 bank14 -
+__Hbank15 0 0 BANK15 1 bank15 -
+__Hbank16 0 0 BANK16 1 bank16 -
+__Hbank17 0 0 BANK17 1 bank17 -
+__Hbank18 0 0 BANK18 1 bank18 -
+__Hbank19 0 0 BANK19 1 bank19 -
+__Hbank20 0 0 BANK20 1 bank20 -
+__Hbank21 0 0 BANK21 1 bank21 -
+__Hbank22 0 0 BANK22 1 bank22 -
+__Hbank23 0 0 BANK23 1 bank23 -
+__Hbank24 0 0 BANK24 1 bank24 -
+__Hbank25 0 0 BANK25 1 bank25 -
+__Hbank26 0 0 BANK26 1 bank26 -
+__Hbank27 0 0 BANK27 1 bank27 -
+__Hbank28 0 0 BANK28 1 bank28 -
+__Hbank29 0 0 BANK29 1 bank29 -
+__Hbank30 0 0 BANK30 1 bank30 -
+__Hbank31 0 0 BANK31 1 bank31 -
+__size_of_SW3_pressed 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Hbigram 0 0 ABS 0 bigram -
+__Hmaintext 0 0 ABS 0 maintext -
+__end_of_DisplaySavedGlucoReading 2E02 0 CODE 0 text28 dist/default/debug\glucose_meter2A.X.debug.obj
+___lbtoft 254E 0 CODE 0 text1 dist/default/debug\glucose_meter2A.X.debug.obj
+_EnterDeepSleep 282C 0 CODE 0 text14 dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_FOSC$INTOSC 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 10012 0 CONFIG 0 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lbank4 0 0 ABS 0 bank4 -
+__Lbank5 0 0 ABS 0 bank5 -
+__Lbank6 0 0 ABS 0 bank6 -
+__Lbank7 0 0 ABS 0 bank7 -
+__Lbank8 0 0 ABS 0 bank8 -
+__Lbank9 0 0 ABS 0 bank9 -
+__end_of_isdigit 2466 0 CODE 0 text7 dist/default/debug\glucose_meter2A.X.debug.obj
+__Lcinit 3BA 0 CODE 0 cinit -
+__Lidloc 0 0 IDLOC 0 idloc -
+___ftadd@exp1 48 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftadd@exp2 47 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftadd@sign 46 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__Lsfr10 0 0 ABS 0 sfr10 -
+__Lsfr11 0 0 ABS 0 sfr11 -
+__Lsfr12 0 0 ABS 0 sfr12 -
+__Lsfr13 0 0 ABS 0 sfr13 -
+__Lsfr14 0 0 ABS 0 sfr14 -
+__Lsfr15 0 0 ABS 0 sfr15 -
+__Lsfr16 0 0 ABS 0 sfr16 -
+__Lsfr17 0 0 ABS 0 sfr17 -
+__Lsfr18 0 0 ABS 0 sfr18 -
+__Lsfr19 0 0 ABS 0 sfr19 -
+__Lsfr20 0 0 ABS 0 sfr20 -
+__Lsfr21 0 0 ABS 0 sfr21 -
+__Lsfr22 0 0 ABS 0 sfr22 -
+__Lsfr23 0 0 ABS 0 sfr23 -
+__Lsfr24 0 0 ABS 0 sfr24 -
+__Lsfr25 0 0 ABS 0 sfr25 -
+__Lsfr26 0 0 ABS 0 sfr26 -
+__Lsfr27 0 0 ABS 0 sfr27 -
+__Lsfr28 0 0 ABS 0 sfr28 -
+__Lsfr29 0 0 ABS 0 sfr29 -
+__Lsfr30 0 0 ABS 0 sfr30 -
+__Lsfr31 0 0 ABS 0 sfr31 -
+__Lstack 0 0 STACK 2 stack -
+init_ram 2430 0 CODE 0 inittext dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_ReadSavedGlucoReading 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of___lbtoft 2584 0 CODE 0 text1 dist/default/debug\glucose_meter2A.X.debug.obj
+__Linittext 0 0 ABS 0 inittext -
+__end_of_SenseTestStrip 1C18 0 CODE 0 text13 dist/default/debug\glucose_meter2A.X.debug.obj
+_INTCONbits B 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 3B6 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Hsfr4 0 0 ABS 0 sfr4 -
+__Hsfr5 0 0 ABS 0 sfr5 -
+__Hsfr6 0 0 ABS 0 sfr6 -
+__Hsfr7 0 0 ABS 0 sfr7 -
+__Hsfr8 0 0 ABS 0 sfr8 -
+__Hsfr9 0 0 ABS 0 sfr9 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 3B6 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Lsfr4 0 0 ABS 0 sfr4 -
+__Lsfr5 0 0 ABS 0 sfr5 -
+__Lsfr6 0 0 ABS 0 sfr6 -
+__Lsfr7 0 0 ABS 0 sfr7 -
+__Lsfr8 0 0 ABS 0 sfr8 -
+__Lsfr9 0 0 ABS 0 sfr9 -
+__Ltext 0 0 ABS 0 text -
+SetTime@set_time_date_loop 126 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+___bmul 2486 0 CODE 0 text10 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftge 28FC 0 CODE 0 text37 dist/default/debug\glucose_meter2A.X.debug.obj
+___wmul 2584 0 CODE 0 text21 dist/default/debug\glucose_meter2A.X.debug.obj
+_gStripInserted 7B 0 COMMON 1 bssCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK2 0 0 ABS 0 cstackBANK2 -
+int$flags 7E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_GIE 5F 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__S0 8009 0 ABS 0 - -
+__S1 133 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_isr 8 0 CODE 0 intentry dist/default/debug\glucose_meter2A.X.debug.obj
+_gHoursRead C5 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_CalcGlucose 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@tDay 121 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@tMin 124 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_SW1_pressed 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_SetTime 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gYmmolDecimalRead CB 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+___awtoft@c 32 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__HidataCOMMON 0 0 ABS 0 idataCOMMON -
+_gReadData B4 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+_gOneReadingDisplyed 7A 0 COMMON 1 bssCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_isr 3B6 0 CODE 0 intentry dist/default/debug\glucose_meter2A.X.debug.obj
+_gYmmol AE 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_EnterDeepSleep 2892 0 CODE 0 text14 dist/default/debug\glucose_meter2A.X.debug.obj
+i1_LCDWrite 267E 0 CODE 0 text43 dist/default/debug\glucose_meter2A.X.debug.obj
+_gotoXY 24F6 0 CODE 0 text32 dist/default/debug\glucose_meter2A.X.debug.obj
+eeprom_write@value 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__Lintentry 8 0 CODE 0 intentry -
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Tom\AppData\Local\Temp\s81g.obj
+_eeprom_write 271C 0 CODE 0 text16 dist/default/debug\glucose_meter2A.X.debug.obj
+__pdataBANK0 61 0 BANK0 1 dataBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__pdataBANK1 D0 0 BANK1 1 dataBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___bmul 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___ftge 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of___wmul 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+SetTime@day_1 12E 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@day_2 129 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@min_1 130 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@min_2 12B 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@tHour 123 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@tYear 122 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@pre_confirm_count 125 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+?___awtoft 32 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_InitADC 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_InitApp 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_PIE1bits 91 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+LCDCharacter@character 39 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_IOCBFbits 396 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_IOCBNbits 395 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+SetTime@confirm_count 131 0 BANK2 1 cstackBANK2 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext10 2486 0 CODE 0 text10 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext11 24D0 0 CODE 0 text11 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext12 24AA 0 CODE 0 text12 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext13 195C 0 CODE 0 text13 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext14 282C 0 CODE 0 text14 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext15 2C50 0 CODE 0 text15 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext16 271C 0 CODE 0 text16 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext17 2E02 0 CODE 0 text17 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext18 25F8 0 CODE 0 text18 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext19 2520 0 CODE 0 text19 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext20 F42 0 CODE 0 text20 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext21 2584 0 CODE 0 text21 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext22 25BC 0 CODE 0 text22 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext23 2B12 0 CODE 0 text23 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext24 241A 0 CODE 0 text24 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext25 2A84 0 CODE 0 text25 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext26 1000 0 CODE 0 text26 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext27 23F4 0 CODE 0 text27 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext28 2D18 0 CODE 0 text28 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext29 2EF2 0 CODE 0 text29 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext30 2BAC 0 CODE 0 text30 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext31 26C8 0 CODE 0 text31 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext32 24F6 0 CODE 0 text32 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext33 27CE 0 CODE 0 text33 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext34 2974 0 CODE 0 text34 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext35 10DA 0 CODE 0 text35 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext36 1352 0 CODE 0 text36 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext37 28FC 0 CODE 0 text37 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext38 14BA 0 CODE 0 text38 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext39 263A 0 CODE 0 text39 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext40 1010 0 CODE 0 text40 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext42 29F8 0 CODE 0 text42 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext43 267E 0 CODE 0 text43 dist/default/debug\glucose_meter2A.X.debug.obj
+_OPA1CONbits 511 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___awdiv 2BAC 0 CODE 0 text30 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftadd 14BA 0 CODE 0 text38 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftdiv 1200 0 CODE 0 text3 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftmul 1352 0 CODE 0 text36 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftneg 2408 0 CODE 0 text2 dist/default/debug\glucose_meter2A.X.debug.obj
+___fttol 2EF2 0 CODE 0 text29 dist/default/debug\glucose_meter2A.X.debug.obj
+___lwdiv 2892 0 CODE 0 text9 dist/default/debug\glucose_meter2A.X.debug.obj
+___lwmod 2774 0 CODE 0 text8 dist/default/debug\glucose_meter2A.X.debug.obj
+__Lbank10 0 0 ABS 0 bank10 -
+__Lbank11 0 0 ABS 0 bank11 -
+__Lbank12 0 0 ABS 0 bank12 -
+__Lbank13 0 0 BANK13 1 bank13 -
+__Lbank14 0 0 BANK14 1 bank14 -
+__Lbank15 0 0 BANK15 1 bank15 -
+__Lbank16 0 0 BANK16 1 bank16 -
+__Lbank17 0 0 BANK17 1 bank17 -
+__Lbank18 0 0 BANK18 1 bank18 -
+__Lbank19 0 0 BANK19 1 bank19 -
+__Lbank20 0 0 BANK20 1 bank20 -
+__Lbank21 0 0 BANK21 1 bank21 -
+__Lbank22 0 0 BANK22 1 bank22 -
+__Lbank23 0 0 BANK23 1 bank23 -
+__Lbank24 0 0 BANK24 1 bank24 -
+__Lbank25 0 0 BANK25 1 bank25 -
+__Lbank26 0 0 BANK26 1 bank26 -
+__Lbank27 0 0 BANK27 1 bank27 -
+__Lbank28 0 0 BANK28 1 bank28 -
+__Lbank29 0 0 BANK29 1 bank29 -
+__Lbank30 0 0 BANK30 1 bank30 -
+__Lbank31 0 0 BANK31 1 bank31 -
+__pmaintext 1C18 0 CODE 0 maintext dist/default/debug\glucose_meter2A.X.debug.obj
+i1LCDWrite@d 73 0 COMMON 1 cstackCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+i1LCDWrite@i 74 0 COMMON 1 cstackCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+__Lbigram 0 0 ABS 0 bigram -
+__CFG_BORV$LO 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+SenseTestStrip@index 40 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_LARGEnum 804 0 STRCODE 0 stringtext dist/default/debug\glucose_meter2A.X.debug.obj
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 1000E 0 CONFIG 0 config -
+?___ftpack 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_printf 16A6 0 CODE 0 text5 dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gDaysRead C3 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_InitTimer1 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Hinittext 0 0 ABS 0 inittext -
+_LCDInit 2B12 0 CODE 0 text23 dist/default/debug\glucose_meter2A.X.debug.obj
+___wmul@multiplier 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_LATAbits 10C 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_LATBbits 10D 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_LATCbits 10E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_LARGEnum A0C 0 STRCODE 0 stringtext dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_gotoXY 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gReadCount C8 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+___lwdiv@divisor 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_eeprom_write 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gGlucoseValue 22C4 0 ABS 1 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gMonthRead C7 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+LCDString@characters 3C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+i1LCDWrite@data 70 0 COMMON 1 cstackCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+stackhi 22C3 0 ABS 0 - C:\Users\Tom\AppData\Local\Temp\s81g.obj
+stacklo 20B3 0 ABS 0 - C:\Users\Tom\AppData\Local\Temp\s81g.obj
+__end_ofi1_LCDWrite 26C8 0 CODE 0 text43 dist/default/debug\glucose_meter2A.X.debug.obj
+?___lbtoft 31 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_Delay_1_Second 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_eeprom_read 263A 0 CODE 0 text18 dist/default/debug\glucose_meter2A.X.debug.obj
+_gYmmoldecimal B1 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+_ADCON0bits 9D 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_gtimeOutCount D8 0 BANK1 1 dataBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__pbssBIGRAM 22C4 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+SW3_pressed@SW3_press 2A 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__end_of_SetTime F42 0 CODE 0 text4 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftmul@cntr 57 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__pbssCOMMON 77 0 COMMON 1 bssCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+___ftmul@sign 58 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__HcstackBANK2 0 0 ABS 0 cstackBANK2 -
+SW1_pressed@SW1_press 2A 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_PIR1bits 11 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Lend_init 3B6 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__end_of_eeprom_write 2774 0 CODE 0 text16 dist/default/debug\glucose_meter2A.X.debug.obj
+printf@ap 3F 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+end_of_initialization 43C 0 CODE 0 cinit dist/default/debug\glucose_meter2A.X.debug.obj
+__Hintentry 3B6 0 CODE 0 intentry -
+__CFG_STVREN$ON 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_printf 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Lstrings 0 0 ABS 0 strings -
+___awdiv@quotient 30 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+?___awdiv 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___lwdiv@dividend 2B 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+?___ftadd 3C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+?___ftdiv 31 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+?___ftmul 49 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+?___ftneg 39 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+?___fttol 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+?___lwdiv 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+?___lwmod 31 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_SW3_pressed 24D0 0 CODE 0 text11 dist/default/debug\glucose_meter2A.X.debug.obj
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+_DACCON0bits 118 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext1 254E 0 CODE 0 text1 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext2 2408 0 CODE 0 text2 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext3 1200 0 CODE 0 text3 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext4 A84 0 CODE 0 text4 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext5 16A6 0 CODE 0 text5 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext6 23F2 0 CODE 0 text6 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext7 2448 0 CODE 0 text7 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext8 2774 0 CODE 0 text8 dist/default/debug\glucose_meter2A.X.debug.obj
+__ptext9 2892 0 CODE 0 text9 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_InitADC 1010 0 CODE 0 text26 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_InitApp 2B12 0 CODE 0 text25 dist/default/debug\glucose_meter2A.X.debug.obj
+_gglucoseIndex C0 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+_gSleepMode 5F 0 BANK0 1 bssBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__pstringtext 444 0 STRCODE 0 stringtext dist/default/debug\glucose_meter2A.X.debug.obj
+_isdigit 2448 0 CODE 0 text7 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_ConfigureOscillator 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Lreset_vec 0 0 CODE 0 reset_vec -
+_gStripRemoved 60 0 BANK0 1 bssBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_CalcGlucose 10DA 0 CODE 0 text35 dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_LPBOR$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_CLKOUTEN$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_SW1_pressed 24AA 0 CODE 0 text12 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftmul@exp 53 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of__initialization 43C 0 CODE 0 cinit dist/default/debug\glucose_meter2A.X.debug.obj
+__Lfunctab 0 0 CODE 0 functab -
+LCDWrite@data_or_command 31 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__pidataBANK0 23FC 0 CODE 0 idataBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__pidataBANK1 2466 0 CODE 0 idataBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__Lclrtext 0 0 ABS 0 clrtext -
+_gExitMemoryMode 79 0 COMMON 1 bssCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_PLLEN$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___ftpack@sign 2D 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_gcountIdleTime D4 0 BANK1 1 dataBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+LCDWrite@d 32 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+LCDWrite@i 33 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+___ftdiv@cntr 3B 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftdiv@sign 40 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_SenseTestStrip 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__Hend_init 3BA 0 CODE 0 end_init -
+__end_of_main 2000 0 CODE 0 maintext dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_ASCII 804 0 STRCODE 0 stringtext dist/default/debug\glucose_meter2A.X.debug.obj
+isdigit@c 2A 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+printf@val 41 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_ASCII 444 0 STRCODE 0 stringtext dist/default/debug\glucose_meter2A.X.debug.obj
+_CARRY 18 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_dpowers A20 0 STRCODE 0 stringtext dist/default/debug\glucose_meter2A.X.debug.obj
+_ConfigureOscillator 23F4 0 CODE 0 text27 dist/default/debug\glucose_meter2A.X.debug.obj
+_EEADR 191 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_Hours 62 0 BANK0 1 dataBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_LATB1 869 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_LATB5 86D 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_Month 64 0 BANK0 1 dataBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_isdigit$1429 29 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_PORTB D 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_TMR1H 17 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_TRISA 8C 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_TRISB 8D 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_TRISC 8E 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_putch 23F4 0 CODE 0 text6 dist/default/debug\glucose_meter2A.X.debug.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_gXadc CD 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+_gYint DC 0 BANK1 1 dataBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+_putch 23F2 0 CODE 0 text6 dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+eeprom_read@addr 2C 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_gSigmaGlucoseValue A4 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__pintentry 8 0 CODE 0 intentry dist/default/debug\glucose_meter2A.X.debug.obj
+___fttol@sign1 31 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_isr 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+__HdataBANK1 0 0 ABS 0 dataBANK1 -
+_gYmmolRead CC 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+_gYmmolchar 66 0 BANK0 1 dataBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__initialization 3BA 0 CODE 0 cinit dist/default/debug\glucose_meter2A.X.debug.obj
+___bmul@product 2B 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_eeprom_read 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__pbssBANK0 5B 0 BANK0 1 bssBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+__pdataCOMMON 7D 0 COMMON 1 dataCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+_gBloodNotInsetrted 78 0 COMMON 1 bssCOMMON dist/default/debug\glucose_meter2A.X.debug.obj
+__Hstringtext 0 0 ABS 0 stringtext -
+__CFG_WRT$OFF 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+___wmul@product 2D 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_LCDClear 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_EnterDeepSleep 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__size_of_LCDWrite 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_ANSELAbits 18C 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+_ANSELBbits 18D 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__end_of_ReadSavedGlucoReading 2EF2 0 CODE 0 text17 dist/default/debug\glucose_meter2A.X.debug.obj
+__size_ofi1_LCDWrite 0 0 ABS 0 - dist/default/debug\glucose_meter2A.X.debug.obj
+__pswtext1 2000 0 CONST 0 swtext1 dist/default/debug\glucose_meter2A.X.debug.obj
+__pswtext2 2028 0 CONST 0 swtext2 dist/default/debug\glucose_meter2A.X.debug.obj
+___ftmul@f3_as_product 54 0 BANK0 1 cstackBANK0 dist/default/debug\glucose_meter2A.X.debug.obj
+_gYearRead CA 0 BANK1 1 bssBANK1 dist/default/debug\glucose_meter2A.X.debug.obj
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+_gGlucoseValue 1 22C4 0
+- 1 620 30
+- 1 5A0 50
+- 1 520 50
+- 1 4A0 50
+- 1 464 C
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text1 0 12A7 254E 1B 2
+text2 0 1204 2408 9 2
+text3 0 900 1200 A9 2
+text4 0 542 A84 2C6 2
+text5 0 B53 16A6 15B 2
+text6 0 11F9 23F2 1 2
+text7 0 1224 2448 F 2
+text8 0 13BA 2774 2D 2
+text9 0 1449 2892 35 2
+text10 0 1243 2486 12 2
+text11 0 1268 24D0 13 2
+text12 0 1255 24AA 13 2
+text13 0 CAE 195C 15E 2
+text14 0 1416 282C 33 2
+text15 0 1628 2C50 64 2
+text16 0 138E 271C 2C 2
+text17 0 1701 2E02 78 2
+text18 0 12FC 25F8 21 2
+text19 0 1290 2520 17 2
+text21 0 12C2 2584 1C 2
+text22 0 12DE 25BC 1E 2
+text23 0 1589 2B12 4D 2
+text24 0 120D 241A B 2
+text25 0 1542 2A84 47 2
+text27 0 11FA 23F4 4 2
+text28 0 168C 2D18 75 2
+text29 0 1779 2EF2 87 2
+text30 0 15D6 2BAC 52 2
+text31 0 1364 26C8 2A 2
+text32 0 127B 24F6 15 2
+text33 0 13E7 27CE 2F 2
+text34 0 14BA 2974 42 2
+text35 0 86D 10DA 93 2
+text36 0 9A9 1352 B4 2
+text37 0 147E 28FC 3C 2
+text38 0 A5D 14BA F6 2
+text39 0 131D 263A 22 2
+text40 0 808 1010 65 2
+text42 0 14FC 29F8 46 2
+text43 0 133F 267E 25 2
+maintext 0 E0C 1C18 1F4 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 47 1
+cstackBANK2 1 120 120 13 1
+inittext 0 1218 2430 C 2
+intentry 0 4 8 21E 2
+reset_vec 0 0 0 4 2
+bssBANK1 1 A0 A0 49 1
+stringtext 0 222 444 320 2
+idataBANK0 0 11FE 23FC 6 2
+idataBANK1 0 1233 2466 10 2
+swtext1 0 1000 2000 28 2
+config 0 8007 1000E 2 2
